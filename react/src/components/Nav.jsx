@@ -11,12 +11,11 @@ const Nav = ({ userCategory }) => {
         <li><Link to="/">Home</Link></li>
         {userCategory === 'Pet Owner' && (
           <>
-            <li><Link to="/pet-owner">Pet Care</Link></li>
+            <li><Link to="/Pet-Care">Pet Care</Link></li>
             <li><Link to="/pet-owner">Products</Link></li>
             <li><Link to="/pet-owner">Emergency</Link></li>
             <li><Link to="/pet-owner">Feedback</Link></li>
             <li><Link to="/pet-owner">Contact Us</Link></li>
-            <li><Link to="/pet-owner">About Us</Link></li>
           </>
         )}
         {userCategory === 'Veterinarian' && (

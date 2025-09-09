@@ -11,10 +11,7 @@ const PetOwnerPage = ({ userName }) => {
         {/* <h2>About Us</h2> */}
         <AboutUs />
       </section>
-      <section>
-        <h2>Contact Us</h2>
-        <ContactUs />
-      </section>
+    
     </div>
   );
 };
