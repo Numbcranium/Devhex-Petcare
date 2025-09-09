@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #BC9A6E;
+  color: #6A443E;
+}
+
+h1, h2, h3 {
+  color: #6A443E;
+}
+
+button {
+  background-color: #9C7456;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  color: white;
+}
+
+button:hover {
+  background-color: #806550;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #9A5543;
+  border-radius: 4px;
+  background-color: #B78960;
+  color: #6A443E;
+}
+
+.homepage {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #BC9A6E;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(106, 68, 62, 0.5);
+}
+
+.visitor-counter {
+  background-color: #9A5543;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.footer {
+  background-color: #6A443E;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.about-us, .contact-us {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #B78960;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(106, 68, 62, 0.5);
+  color: #6A443E;
+}
+
+.map iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 8px;
+}
+
+.pet-owner-page, .veterinarian-page, .shelter-page {
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #BC9A6E;
+  color: #6A443E;
+}
+
+.pet-owner-page h1, .veterinarian-page h1, .shelter-page h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.pet-owner-page p, .veterinarian-page p, .shelter-page p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.location-ticker {
+  background-color: #BC9A6E;
+  color: #6A443E;
+  padding: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  font-weight: bold;
+}
+
+.location-ticker marquee {
+  font-size: 1rem;
+}
