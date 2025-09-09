@@ -1,3 +1,8 @@
+
+import './App.css'
+import SignInPage from './components/SignIn.jsx'
+import PetCare from './components/PetOwner/PetCare/PetCare'
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import Nav from './components/Nav';
@@ -9,11 +14,17 @@ import ShelterPage from './pages/Homepage/ShelterPage';
 import VisitorCounter from './components/VisitorCounter';
 import './App.css';
 
+
 function App() {
   const [userName, setUserName] = useState('');
   const [userCategory, setUserCategory] = useState('');
 
   return (
+    <>
+     {/* <SignInPage/> */}
+     <PetCare/>
+    </>
+  )
     <Router>
       <div className="app">
         <Nav userCategory={userCategory} />
@@ -31,7 +42,7 @@ function App() {
         <Footer />
       </div>
     </Router>
-  );
+  )
 }
 
 export default App;

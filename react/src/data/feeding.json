@@ -1,0 +1,6 @@
+[
+  { "type": "Puppy (2-6 months)", "food": "4 meals/day, Puppy kibble" },
+  { "type": "Adult Dog", "food": "2 meals/day, Balanced dog food" },
+  { "type": "Kitten (2-6 months)", "food": "4 meals/day, Kitten kibble + wet food" },
+  { "type": "Adult Cat", "food": "2 meals/day, Cat kibble + fresh water" }
+]

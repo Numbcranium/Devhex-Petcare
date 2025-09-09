@@ -1,0 +1,214 @@
+.container{
+    width: 100%;
+    display: flex;
+    font-family: cursive;
+}
+.side-pic{
+    width: 40%;
+    height: auto;
+    background-image: url('../assets/images/gantas-vaiciulenas--wXDi-zBLE4-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.welcome{
+    width: 60%;
+    /* height: 100%; */
+    padding: 60px;
+}
+.signInForm .intro h1{
+    font-size: 38px;
+}
+.signInForm .intro p{
+    font-size: 20px;
+    width: 90%;
+    padding-top: 20px;
+    line-height: 30px;
+}
+.formInfo{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+.inputDiv{
+    display: flex;
+    gap: 30px;
+}
+.labelInput{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.labelDiv{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.labelInput input{
+    width: 100%;
+    padding: 15px 20px;
+    font-family: cursive;
+    font-size: 15px;
+    border-radius: 15px;
+}
+.labelInput input:focus{
+    border: 2px solid #9C7456;
+    outline: #9C7456;
+}
+.radioDivs{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.radioCon{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.radioBox{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border: 2px solid black;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+.radioBox input{
+    accent-color: #9C7456;
+}
+.formButton{
+    width: 100%;
+    padding: 18px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #9C7456;
+    gap: 10px;
+    font-size: 16px;
+    font-family: cursive;
+    border: none;
+    border-radius: 15px;
+    margin-top: 60px;
+}
+
+/* responsiveness */
+@media(max-width: 1400px){
+    .side-pic{
+        background-position-x: center;
+    }
+}
+@media(max-width: 1300px){
+    .side-pic{
+        width: 35%;
+        background-size: cover;
+        background-position-x: center;
+    }
+    .welcome{
+        width: 65%;
+    }
+}
+@media(max-width: 1100px){
+    .side-pic{
+        width: 40%;
+        background-size: cover;
+        background-position-x: center;
+    }
+    .welcome{
+        width: 60%;
+    }
+}
+@media(max-width: 1000px){
+    .side-pic{
+        display: none;
+    }
+    .welcome{
+        width: 100%;
+        padding: 100px;
+        height: auto;
+        background-image: url('../assets/images/gantas-vaiciulenas--wXDi-zBLE4-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0.507);
+        background-blend-mode: darken;
+        filter: opacity(0.9);
+        color: white;
+    }
+    .signInForm .intro p{
+        width: 100%;
+    }
+    .radioBox{
+        background-color: white;
+        color: black;
+    }
+}
+@media(max-width: 800px){
+    .welcome{
+        padding: 100px 70px;
+    }
+    .signInForm .intro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media(max-width: 700px){
+    .welcome{
+        padding: 90px 60px;
+    }
+    
+}
+@media(max-width: 600px){
+    .inputDiv{
+        flex-direction: column;
+    }
+    .welcome{
+        background-position: center;
+    }
+    .signInForm .intro h1{
+        font-size: 33px;
+    }
+    .signInForm .intro p{
+        font-size: 19px;
+    } 
+    
+}
+@media(max-width: 535px){
+    
+    .signInForm .intro h1{
+        font-size: 30px;
+    }   
+}
+@media(max-width: 500px){
+    
+    .signInForm .intro h1{
+        font-size: 30px;
+    }
+    .welcome{
+        padding: 60px 30px;
+    }  
+}
+@media(max-width: 436px){
+    
+    .signInForm .intro h1{
+        font-size: 28px;
+    }
+    .signInForm .intro p{
+        font-size: 18px;
+    }
+    .welcome{
+        padding: 60px 20px;
+    }  
+}
+@media(max-width: 390px){
+    
+    .signInForm .intro h1{
+        font-size: 25px;
+    }
+    .signInForm .intro p{
+        font-size: 18px;
+    }
+}
