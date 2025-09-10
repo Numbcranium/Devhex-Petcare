@@ -53,13 +53,11 @@ function App() {
           <PetCare/>
         <Footer />
       </div>
+      </Router>
+      </>
 
     </BrowserRouter>
   );
-
-</Router>
-</>
-  )
 }
 
 export default App;
