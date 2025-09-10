@@ -1,5 +1,5 @@
-import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
+import { Routes, Route, Link } from "react-router-dom";
 import ShelterPage from "./pages/Homepage/ShelterPage";
 import Gallery from "./components/AnimalShelters/Gallery";
 import Events from "./components/AnimalShelters/Events";
@@ -32,8 +32,7 @@ return (
 <div className="home">
 <header className="hero-home">
 <h1>Welcome to PetCare</h1>
-<p>Adopt, Love, and Find Your Forever Friend</p>
+<p>Adopt,Love,and Find Your Forever Friend.</p>
 <Link to="/shelter" className="cta-button">Explore Shelter</Link>
-</header></div>
-);}
+</header></div> );}
 export default App;
