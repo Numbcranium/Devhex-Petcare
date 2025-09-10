@@ -28,8 +28,8 @@ id:12,name:"Rex",type: "dog",age:"4 years",breed:"German Shepherd",image:"https:
 },{
 id:13,name:"Whiskers",type:"cat",age:"3 years",breed:"Maine Coon",image:"https://t4.ftcdn.net/jpg/00/77/51/81/240_F_77518136_F88I0v3R2mZsKEgxxXMc4iqXlOjK8OLE.jpg",description: "Large and fluffy, very gentle and friendly.",status: "Available",},];
 function Gallery() {
-const [selectedType, setSelectedType] = useState("all");
-const [activeCardId, setActiveCardId] = useState(null);
+const [selectedType,setSelectedType] = useState("all");
+const [activeCardId,setActiveCardId] = useState(null);
 const types = Array.from(new Set(pets.map(p => p.type)));
 const displayedPets = selectedType === "all"? pets: pets.filter(pet => pet.type === selectedType);
 const handleToggleDetails = (id) => {
