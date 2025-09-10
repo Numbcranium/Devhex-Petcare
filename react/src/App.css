@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+:root {
+  --brown-dark: #6A443E;
+  --brown-medium: #806550;
+  --brown-warm: #9C7456;
+  --brown-soft: #B78960;
+  --brown-light: #BC9A6E;
+  --brown-red: #9A5543;
+
+  --text-light: #ffffff;
+  --text-dark: #2b2b2b;
+  --background: #fffdf9;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: var(--background);
+  color: var(--text-dark);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--brown-dark);
+  padding: 1rem 2rem;
+  color: var(--text-light);
+}
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar .links a {
+  color: var(--text-light);
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.navbar .links a:hover {
+  color: var(--brown-light);
+}
+.hero-home {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: var(--brown-soft);
+  color: var(--text-light);
+  border-bottom: 5px solid var(--brown-red);
+}
+.hero-home h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.hero-home p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.cta-button {
+  background: var(--brown-red);
+  color: var(--text-light);
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+.cta-button:hover {
+  background: var(--brown-dark);
+  transform: scale(1.05);
+}
