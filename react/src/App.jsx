@@ -25,13 +25,14 @@ return (
 <Route path="/stories" element={<SuccessStories />} />
 <Route path="/events" element={<Events />} />
 <Route path="/contact" element={<ShelterContact />} />
-</Routes></div>
+</Routes>
+</div>
 );}
 function Home() {
 return (
 <div className="home">
 <header className="hero-home">
-<h1>Welcome to PetCare</h1>
+<h1>Welcome to PetCare.</h1>
 <p>Adopt,Love,and Find Your Forever Friend.</p>
 <Link to="/shelter" className="cta-button">Explore Shelter</Link>
 </header></div> );}
