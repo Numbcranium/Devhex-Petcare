@@ -3,7 +3,7 @@
   justify-content:space-between;
   align-items:center;
   padding:12px 20px;
-  background:var(--primary);
+  /* background:var(--primary); */
   color:#fff;
   flex-wrap:wrap;
 }
