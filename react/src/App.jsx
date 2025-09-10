@@ -1,6 +1,7 @@
 import './App.css'
 import SignInPage from './components/SignIn.jsx'
 import PetCare from './components/PetOwner/PetCare/PetCare'
+import AboutUs from './components/PetOwner/ContactUs/AboutUs'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import Nav from './components/Nav';
@@ -38,6 +39,8 @@ function App() {
             </>
           } />
           <Route path="/pet-owner" element={<PetOwnerPage userName={userName} />} />
+          <Route path="/Pet-Care" element={<PetCare />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/veterinarian" element={<VeterinarianPage userName={userName} />} />
           <Route path="/shelter" element={<ShelterPage userName={userName} />} />
           {/* Nested routes for veterinarian dashboard */}
@@ -50,7 +53,6 @@ function App() {
           {/* 404 fallback */}
           <Route path="*" element={<NotFound />} />
         </Routes>
-          <PetCare/>
         <Footer />
       </div>
       </Router>
