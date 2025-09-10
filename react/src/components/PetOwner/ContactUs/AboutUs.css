@@ -1,0 +1,126 @@
+.about-header {
+  background-color: #BC9A6E;
+  color: #6A443E;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  font-style: italic;
+  opacity: 0.8;
+}
+.about-header h2{
+  display:none;
+}
+.about-maini {
+  background-color: #F5F5F5;
+  padding: 2rem;
+  border-radius: 0 0 10px 10px;
+  max-width: 100%;
+  margin: 0 auto 3rem auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #6A443E;
+}
+
+.about-maini h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  border-bottom: 2px solid #BC9A6E;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.about-content {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-text {
+  flex: 1 1 300px;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.mission-vision {
+  flex: 1 1 300px;
+  background-color: #B78960;
+  color: #FFFFFF;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height:fit-content;
+}
+
+.mission-vision h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.mission-vision p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.team-card {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #6A443E;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.initials {
+  background-color: #9C7456;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  margin: 0 auto 1rem auto;
+}
+
+.team-card h4 {
+  margin: 0.5rem 0;
+  font-weight: 700;
+}
+
+.role {
+  font-style: italic;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.contact-email,
+.contact-phone {
+  font-size: 0.85rem;
+  margin: 0.2rem 0;
+  color: #806550;
+  word-wrap: break-word;
+}
