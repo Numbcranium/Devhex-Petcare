@@ -1,9 +1,8 @@
-
-import React, { useState } from 'react';
-import './App.css';
-import SignInPage from './components/SignIn.jsx';
-import PetCare from './components/PetOwner/PetCare/PetCare';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './App.css'
+import SignInPage from './components/SignIn.jsx'
+import PetCare from './components/PetOwner/PetCare/PetCare'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useState } from 'react';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Homepage from './pages/Homepage/Homepage';
@@ -25,6 +24,10 @@ function App() {
 
   return (
     <BrowserRouter>
+    <>
+ 
+  
+    <Router>
       <div className="app">
         <Nav userCategory={userCategory} />
         <Routes>
@@ -47,10 +50,16 @@ function App() {
           {/* 404 fallback */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+          <PetCare/>
         <Footer />
       </div>
+
     </BrowserRouter>
   );
+
+</Router>
+</>
+  )
 }
 
 export default App;
