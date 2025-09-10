@@ -16,7 +16,7 @@ id:6,name:"Pip",type:"guinea pig",age:"1 year",breed:"Abyssinian",image:"https:/
 },{
 id:7,name:"Sky",type:"bird",age:"4 years",breed:"Parakeet",image:"https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBhcmFrZWV0fGVufDB8fDB8fHww",description: "Colorful and social, enjoys singing.",status: "Pending Adoption",
 },{
-id:8,name:"Nibbles",type:"rabbit",age:"8 months",breed:"Netherland Dwarf",image:"https://images.unsplash.com/photo-1452857297128-d9c29adba80b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFiYml0fGVufDB8fDB8fHww",description: "Small and speedy, great for families.",status: "Available",
+id:8,name:"Nibbles",type:"rabbit",age:"5 months",breed:"Netherland Dwarf",image:"https://images.unsplash.com/photo-1452857297128-d9c29adba80b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFiYml0fGVufDB8fDB8fHww",description: "Small and speedy, great for families.",status: "Available",
 },{
 id: 9,name:"Felix",type:"ferret",age:"2 years",breed:"Albino",image:"https://cdn.pixabay.com/photo/2017/07/24/15/07/ferret-2534995_640.jpg",description: "Playful and mischievous, loves tunnels and toys.",status: "Available",
 },{
