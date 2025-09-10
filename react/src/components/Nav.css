@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #BC9A6E;
+  padding: 1rem;
+  color: #6A443E;
+}
+
+.nav-logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #6A443E;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #6A443E;
+  padding: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.nav-menu li a:hover {
+  background-color: #9C7456;
+  border-radius: 4px;
+}
