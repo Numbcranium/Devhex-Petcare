@@ -17,7 +17,6 @@ import VetHome from './components/Veterinarian/VetHome';
 import AppointmentSlots from './components/Veterinarian/AppointmentSlots';
 import CaseStudyList from './components/Veterinarian/CaseStudyList';
 import NotFound from './components/Veterinarian/NotFound';
-import Home from './pages/Homepage/Home';
 import VetDashboard from './components/Veterinarian/VetDashBoard.jsx';
 
 function App() {
