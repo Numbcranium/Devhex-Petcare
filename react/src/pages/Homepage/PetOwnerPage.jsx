@@ -2,6 +2,7 @@ import { useLocation } from 'react-router-dom';
 import LocationTicker from '../../components/LocationTicker';
 import AboutUs from '../../components/PetOwner/ContactUs/AboutUs';
 import ContactUs from '../../components/PetOwner/ContactUs/ContactUs';
+import EmergencyHelp from '../../components/PetOwner/EmergencyHelp';
 
 const PetOwnerPage = ({ userName }) => {
   const location = useLocation();
@@ -16,7 +17,7 @@ const PetOwnerPage = ({ userName }) => {
         {/* <h2>About Us</h2> */}
         {section === 'contact-us' && <AboutUs />}
         {section === 'products' && <div>Products Section Content</div>}
-        {section === 'emergency' && <div>Emergency Section Content</div>}
+        {section === 'emergency' && <EmergencyHelp />}
         {section === 'feedback' && <div>Feedback Section Content</div>}
       </section>
     </div>
