@@ -76,7 +76,7 @@ onError={(e) => {
  <p><strong>Type:</strong> {capitalize(pet.type)}</p>
 <p><strong>Status:</strong> {pet.status}</p>
 <p>{pet.description}</p>
-<p className="hint">Click or press Entr to hide details</p>
+<p className="hint">(Click or press Entr to hide details)</p>
 </div>
 )}
 </article>
