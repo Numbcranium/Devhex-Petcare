@@ -1,0 +1,13 @@
+.vet-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.vet-welcome{color:var(--muted)}
+.vet-grid{display:grid;grid-template-columns:320px 1fr;gap:18px;align-items:start}
+.vet-left{min-width:260px}
+.vet-right{min-width:0}
+.vet-profile-card{background:var(--card);padding:14px;border-radius:8px;box-shadow:0 6px 14px rgba(0,0,0,0.04)}
+.vet-photo-wrap img{width:100%;height:180px;object-fit:cover;border-radius:6px;margin-bottom:10px}
+.vet-profile-card h3{margin:0 0 6px}
+.vet-special{color:var(--muted);margin-bottom:8px}
+@media (max-width:900px){
+  .vet-grid{grid-template-columns:1fr;align-items:stretch}
+  .vet-photo-wrap img{height:160px}
+}
