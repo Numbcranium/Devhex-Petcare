@@ -2,31 +2,31 @@ import { useState } from "react";
 import "../../styles/Gallery.css";
 
 const pets = [{
-id: 1, name: "Buddy",type: "dog",age: "2 years",breed: "Labrador",image: "https://placedog.net/400",description: "Loyal and playful, loves long walks and cuddles.",status: "Available",
+id:1,name:"Buddy",type:"dog",age:"2 years",breed:"Labrador",image:"https://placedog.net/400",description: "Loyal and playful, loves long walks and cuddles.",status: "Available",
 },{
-id: 2,name: "Mittens",type: "cat",age: "1 year",breed: "Persian",image: "https://placekitten.com/400/400",description: "Calm and affectionate, perfect lap cat.",status: "Pending Adoption",
+id:2,name:"Mittens",type:"cat",age:"1 year",breed:"Persian",image:"https://placekitten.com/400/400",description: "Calm and affectionate, perfect lap cat.",status: "Pending Adoption",
 },{
-id: 3,name: "Thumper",type: "rabbit",age: "6 months",breed: "Holland Lop",image: "https://placehold.co/400x400?text=Rabbit",description: "Curious little hopper who loves fresh veggies.",status: "Available",
+id:3,name:"Thumper",type:"rabbit",age:"6 months",breed:"Holland Lop",image:"https://media.istockphoto.com/id/499124260/photo/white-rabbit-close-up.jpg?s=1024x1024&w=is&k=20&c=cEn-S_MJIKXT7uzAAtYzDyewU_yrnolwmEfSmbQ1wPA=",description: "Curious little hopper who loves fresh veggies.",status: "Available",
 },{
-id: 4,name: "Charlie",type: "dog",age: "3 years",breed: "Beagle",image: "https://placedog.net/401",description: "Energetic and friendly, loves playing fetch.",status: "Available",
+id:4,name:"Charlie",type:"dog",age:"3 years",breed:"Beagle",image:"https://placedog.net/401",description: "Energetic and friendly, loves playing fetch.",status: "Available",
 },{
-id: 5,name: "Luna",type: "cat",age: "2 years",breed: "Siamese",image: "https://placekitten.com/401/401",description: "Vocal and intelligent, great companion.",status: "Available",
+id:5,name:"Luna",type:"cat",age:"2 years",breed:"Siamese",image:"https://placekitten.com/401/401",description: "Vocal and intelligent, great companion.",status: "Available",
 },{
-id: 6,name: "Pip",type: "guinea pig",age: "1 year",breed: "Abyssinian",image: "https://placehold.co/400x400?text=Guinea+Pig",description: "Sweet and gentle, loves to be pampered.",status: "Available",
+id:6,name:"Pip",type:"guinea pig",age:"1 year",breed:"Abyssinian",image:"https://placehold.co/400x400?text=Guinea+Pig",description: "Sweet and gentle, loves to be pampered.",status: "Available",
 },{
-id: 7,name: "Sky",type: "bird",age: "4 years",breed: "Parakeet",image: "https://placehold.co/400x400?text=Parakeet",description: "Colorful and social, enjoys singing.",status: "Pending Adoption",
+id:7,name:"Sky",type:"bird",age:"4 years",breed:"Parakeet",image:"https://placehold.co/400x400?text=Parakeet",description: "Colorful and social, enjoys singing.",status: "Pending Adoption",
 },{
-id: 8,name: "Nibbles",type: "rabbit",age: "8 months",breed: "Netherland Dwarf",image: "https://placehold.co/400x400?text=Rabbit+2",description: "Small and speedy, great for families.",status: "Available",
+id:8,name:"Nibbles",type:"rabbit",age:"8 months",breed:"Netherland Dwarf",image:"https://placehold.co/400x400?text=Rabbit+2",description: "Small and speedy, great for families.",status: "Available",
 },{
-id: 9,name: "Felix",type: "ferret",age: "2 years",breed: "Albino",image: "https://placehold.co/400x400?text=Ferret",description: "Playful and mischievous, loves tunnels and toys.",status: "Available",
+id: 9,name:"Felix",type:"ferret",age:"2 years",breed:"Albino",image:"https://placehold.co/400x400?text=Ferret",description: "Playful and mischievous, loves tunnels and toys.",status: "Available",
 },{
-id: 10,name: "Hammy",type: "hamster",age: "1 year",breed: "Syrian",image: "https://placehold.co/400x400?text=Hamster",description: "Tiny and curious, enjoys running on the wheel.",status: "Available",
+id:10,name:"Hammy",type:"hamster",age:"1 year",breed:"Syrian",image:"https://placehold.co/400x400?text=Hamster",description: "Tiny and curious, enjoys running on the wheel.",status: "Available",
 },{
-id: 11,name: "Shelly",type: "turtle",age: "5 years",breed: "Red-Eared Slider",image: "https://placehold.co/400x400?text=Turtle",description: "Calm and steady, loves basking under the lamp.",status: "Pending Adoption",
+id:11,name:"Shelly",type:"turtle",age:"5 years",breed:"Red-Eared Slider",image:"https://placehold.co/400x400?text=Turtle",description: "Calm and steady, loves basking under the lamp.",status: "Pending Adoption",
   },{
-id: 12,name: "Rex",type: "dog",age: "4 years",breed: "German Shepherd",image: "https://placedog.net/402",description: "Intelligent and protective, great family dog.",status: "Available",
+id:12,name:"Rex",type: "dog",age:"4 years",breed:"German Shepherd",image:"https://placedog.net/402",description: "Intelligent and protective, great family dog.",status: "Available",
 },{
-id: 13,name: "Whiskers",type: "cat",age: "3 years",breed: "Maine Coon",image: "https://placekitten.com/402/402",description: "Large and fluffy, very gentle and friendly.",status: "Available",},];
+id:13,name:"Whiskers",type:"cat",age:"3 years",breed:"Maine Coon",image:"https://placekitten.com/402/402",description: "Large and fluffy, very gentle and friendly.",status: "Available",},];
 function Gallery() {
 const [selectedType, setSelectedType] = useState("all");
 const [activeCardId, setActiveCardId] = useState(null);
