@@ -1,8 +1,6 @@
-
 import './App.css'
 import SignInPage from './components/SignIn.jsx'
 import PetCare from './components/PetOwner/PetCare/PetCare'
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import Nav from './components/Nav';
@@ -22,9 +20,8 @@ function App() {
   return (
     <>
      {/* <SignInPage/> */}
-     <PetCare/>
-    </>
-  )
+ 
+  
     <Router>
       <div className="app">
         <Nav userCategory={userCategory} />
@@ -39,9 +36,11 @@ function App() {
           <Route path="/veterinarian" element={<VeterinarianPage userName={userName} />} />
           <Route path="/shelter" element={<ShelterPage userName={userName} />} />
         </Routes>
+          <PetCare/>
         <Footer />
       </div>
-    </Router>
+</Router>
+</>
   )
 }
 
