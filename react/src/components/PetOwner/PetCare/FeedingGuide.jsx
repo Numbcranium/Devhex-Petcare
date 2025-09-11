@@ -9,25 +9,33 @@ const FeedingGuide = () => {
   }, []);
 
   return (
-    <div className="card">
-      <h3 className="card-title">Feeding Guide</h3>
-      <table className="styled-table">
-        <thead>
-          <tr>
-            <th>Pet Type</th>
-            <th>Recommended Feeding</th>
-          </tr>
-        </thead>
-        <tbody>
-          {guide.map((item, idx) => (
-            <tr key={idx}>
-              <td>{item.type}</td>
-              <td>{item.food}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
+     <div className="care-card">
+                <h3>
+                    <div className="card-icon">🍽️</div>
+                    Feeding Guide
+                </h3>
+                <div className="feeding-charts">
+                    <div className="chart-item">
+                        <div className="chart-title">Morning</div>
+                        <div className="chart-amount">1.5 cups</div>
+                    </div>
+                    <div className="chart-item">
+                        <div className="chart-title">Evening</div>
+                        <div className="chart-amount">1.5 cups</div>
+                    </div>
+                    <div className="chart-item">
+                        <div className="chart-title">Treats</div>
+                        <div className="chart-amount">2-3 daily</div>
+                    </div>
+                    <div className="chart-item">
+                        <div className="chart-title">Water</div>
+                        <div className="chart-amount">Fresh daily</div>
+                    </div>
+                </div>
+               
+            </div>
+
+ 
   );
 };
 

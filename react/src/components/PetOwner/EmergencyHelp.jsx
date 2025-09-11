@@ -4,16 +4,16 @@ import '../../styles/Emergency.css';
 const EmergencyHelp = () => {
   return (
     <div className="emergency-container">
-      {/* Header Section */}
+
       <header className="emergency-header">
         <div className="header-icon" role="img" aria-label="emergency">🚨</div>
         <h1>Emergency Hotline</h1>
         <p>If your pet is in immediate danger, call emergency services first, then contact a veterinarian</p>
       </header>
 
-      {/* Main Cards Section */}
+   
       <section className="emergency-main-cards">
-        {/* Veterinary Clinics Card */}
+    
         <div className="emergency-card veterinary-clinics">
           <div className="card-header">
             <span className="card-icon" role="img" aria-label="clinic">🏥</span>
@@ -43,7 +43,7 @@ const EmergencyHelp = () => {
           </div>
         </div>
 
-        {/* Poison Control Helplines Card */}
+   
         <div className="emergency-card poison-control">
           <div className="card-header">
             <span className="card-icon" role="img" aria-label="poison">☠️</span>
@@ -74,7 +74,7 @@ const EmergencyHelp = () => {
         </div>
       </section>
 
-      {/* Quick Dial Section */}
+ 
       <section className="quick-dial-section">
         <h2>⚡ Quick Dial Emergency Numbers</h2>
         <div className="quick-dial-buttons">
@@ -85,7 +85,6 @@ const EmergencyHelp = () => {
         </div>
       </section>
 
-      {/* Contact Us Section */}
       <section className="contact-us-section">
         <div className="contact-us-header">
           <span className="contact-us-icon" role="img" aria-label="contact">📍</span>
