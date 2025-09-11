@@ -2,7 +2,7 @@ import './App.css'
 import SignInPage from './components/SignIn.jsx'
 import PetCare from './components/PetOwner/PetCare/PetCare'
 import AboutUs from './components/PetOwner/ContactUs/AboutUs'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter ,Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
@@ -25,10 +25,9 @@ function App() {
 
   return (
     <BrowserRouter>
-    <>
  
   
-    <Router>
+
       <div className="app">
         <Nav userCategory={userCategory} />
         <Routes>
@@ -55,8 +54,6 @@ function App() {
         </Routes>
         <Footer />
       </div>
-      </Router>
-      </>
 
     </BrowserRouter>
   );
