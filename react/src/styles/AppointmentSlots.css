@@ -1,38 +1,109 @@
-/* Toast */
-.toast {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #28a745;
-  color: #fff;
-  padding: 12px 18px;
-  border-radius: 6px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
-  animation: fadein 0.3s, fadeout 0.3s 2.7s;
-  cursor: pointer;
-}
-@keyframes fadein { from { opacity: 0; transform: translateY(20px);} to { opacity: 1; transform: translateY(0);} }
-@keyframes fadeout { from { opacity: 1; } to { opacity: 0; } }
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-.slots-wrapper{background:var(--card);padding:16px;border-radius:8px;box-shadow:0 6px 16px rgba(0,0,0,0.04)}
-.slot-list{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
-.slot-card{min-width:180px;padding:12px;border-radius:8px;border:1px solid #eee;display:flex;justify-content:space-between;align-items:center;cursor:pointer}
-.slot-card.available{background:#e6f4ff;border-color:#cfefff}
-.slot-card.booked{background:#fff0f0;border-color:#ffd6d6;cursor:default;opacity:0.95}
-.slot-time{font-weight:700}
-.small.muted{font-size:0.85rem;color:#666;margin-top:4px}
-.btn-book{padding:6px 10px;background:#007bff;color:#fff;border:none;border-radius:6px;cursor:pointer}
-.btn-book:hover{transform:translateY(-2px)}
-.booked-tag{background:#ff6b6b;color:white;padding:6px;border-radius:6px;font-weight:600}
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #806550 0%, #9C7456 50%, #B78960 100%);
+            min-height: 100vh;
+            color: #333;
+        }
 
-.note{color:var(--muted);font-size:.85rem;margin-top:10px}
+        .header {
+            background: linear-gradient(135deg, #806550, #9C7456);
+            color: white;
+            padding: 1rem 2rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
 
-/* Modal */
-.modal-backdrop{
-  position:fixed;inset:0;background:rgba(0,0,0,0.45);display:flex;align-items:center;justify-content:center;z-index:2000
-}
-.modal-card{background:white;padding:18px;border-radius:10px;min-width:320px;max-width:90%;box-shadow:0 20px 40px rgba(0,0,0,0.2)}
-.modal-card h3{margin-top:0}
-.modal-card input{width:100%;padding:10px;margin-top:8px;border-radius:6px;border:1px solid #ddd}
-.btn-confirm{padding:8px 12px;background:#28a745;color:#fff;border:none;border-radius:6px;cursor:pointer}
-.btn-cancel{padding:8px 12px;background:#6c757d;color:#fff;border:none;border-radius:6px;cursor:pointer;margin-left:6px}
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+       .section {
+            background: white;
+        margin-left: -45px;
+        margin-top: -47px;
+            padding: 2rem;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            border-left: 5px solid #BC9A6E;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #806550;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .section-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #BC9A6E, #9A5543);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        .appointment-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .time-slot-group {
+            background: linear-gradient(135deg, #BC9A6E10, #9A554310);
+            border-radius: 15px;
+            padding: 1.5rem;
+            border: 2px solid #BC9A6E30;
+        }
+
+        .date-header {
+            font-weight: bold;
+            color: #806550;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .time-slots {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.5rem;
+        }
+
+        .time-slot {
+            padding: 0.7rem;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .booked {
+            background: linear-gradient(135deg, #9A5543, #6A443E);
+            color: white;
+        }
+
+        .available {
+            background: linear-gradient(135deg, #BC9A6E, #9C7456);
+            color: white;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .available:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }

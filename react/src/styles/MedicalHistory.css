@@ -1,22 +1,65 @@
-.history-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-}
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-.history-table th,
-.history-table td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: left;
-  font-size: 14px;
-}
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #806550 0%, #9C7456 50%, #B78960 100%);
+            min-height: 100vh;
+            color: #333;
+            
+        }
+        
+.section{
+  margin-top: 0px;
+  margin-left: 6px;
 
-.history-table th {
-  background-color: #f4f4f4;
-  font-weight: bold;
 }
+    .case-studies {
+            display: grid;
+            gap: 1.5rem;
+            ;
+        }
 
-.history-table tr:nth-child(even) {
-  background: #fafafa;
-}
+        .case-study {
+            background: linear-gradient(135deg, #BC9A6E05, #9A554305);
+           
+            padding: 1.5rem;
+            border: 2px solid #BC9A6E20;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .case-study:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+
+        .case-title {
+            font-weight: bold;
+            color: #806550;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .case-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .case-detail {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem;
+            background: white;
+            border-radius: 8px;
+            border-left: 3px solid #9A5543;
+        }
+
+        .case-description {
+            color: #666;
+            line-height: 1.6;
+        }

@@ -5,6 +5,8 @@ import AddVetForm from "../../components/Veterinarian/AddVetForm";
 import AppointmentSlots from "../../components/Veterinarian/AppointmentSlots";
 import MedicalHistory from "../../components/Veterinarian/MedicalHistory";
 import "../../styles/Veterinarian.css";
+import '../../styles/signin.css'
+// import Footer from "../../components/Footer";
 
 const VeterinarianPage = ({ userName }) => {
   const location = useLocation();
@@ -13,15 +15,20 @@ const VeterinarianPage = ({ userName }) => {
 
   return (
     <div className="vet-page">
-      <h1>Welcome, Dr. {userName ? userName : "Guest"}!</h1>
+      {/* <h1>Welcome, Dr. {userName ? userName : "Guest"}!</h1> */}
+     
+
 
       <section>
         {section === "profiles" && <VetProfile />}
         {section === "add-vet" && <AddVetForm />}
         {section === "appointments" && <AppointmentSlots />}
         {section === "history" && <MedicalHistory />}
+        
       </section>
+  
     </div>
+    
   );
 };
 
