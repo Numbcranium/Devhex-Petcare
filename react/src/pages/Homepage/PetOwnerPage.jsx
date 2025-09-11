@@ -6,16 +6,14 @@ import EmergencyHelp from '../../components/PetOwner/EmergencyHelp';
 import FeedbackForm from '../../components/PetOwner/FeedbackForm';
 import React from 'react';
 import PetProducts from '../../components/PetProductShowcase'
+import Footer from '../../components/Footer';
 
 
 const PetOwnerPage = ({ userName }) => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const section = queryParams.get('section');
-// // if (section === 'pet-owner-page') {
-// //         <h1>Welcome {userName}</h1>
-        
-//       }
+
   return (
     <div className="pet-owner-page">
     <h1>Welcome, {userName}!</h1>
@@ -26,6 +24,7 @@ const PetOwnerPage = ({ userName }) => {
         {section === 'products' && <PetProducts/>}
         {section === 'emergency' && <EmergencyHelp />}
         {section === 'feedback' && <FeedbackForm/>}
+ 
       </section>
     </div>
   );

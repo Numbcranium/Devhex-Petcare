@@ -39,7 +39,6 @@ function App() {
           <Route path="/shelter" element={<ShelterPage userName={userName} />} />
         
         </Routes>
-        <Footer />
       </div>
 
     </BrowserRouter>
