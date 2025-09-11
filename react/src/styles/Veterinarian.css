@@ -1,0 +1,115 @@
+.vet-page {
+  padding: 2rem;
+  max-width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+
+/* Page Titles */
+.vet-page h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.vet-page h2 {
+  font-size: 22px;
+  margin: 20px 0 10px;
+  color: #444;
+}
+
+/* Vet Grid */
+.vet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.vet-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.vet-card img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.vet-card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+.vet-card p {
+  font-size: 14px;
+  margin: 4px 0;
+  color: #555;
+}
+
+/* Add Vet Form */
+.vet-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.vet-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.vet-form button {
+  padding: 10px;
+  background: #9C7456;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.vet-form button:hover {
+  background: #7A5B42;
+}
+
+/* Slots Section */
+.vet-card .slots {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Medical History Table */
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.history-table th,
+.history-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.history-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.history-table tr:nth-child(even) {
+  background: #fafafa;
+}
