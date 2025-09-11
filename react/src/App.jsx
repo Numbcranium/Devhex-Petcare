@@ -1,11 +1,11 @@
 import './App.css'
-import SignInPage from './components/SignIn.jsx'
+import PetProducts from '../src/components/PetProductShowcase'
 
 function App() {
 
   return (
     <>
-     <SignInPage />
+     <PetProducts />
     </>
   )
 }
