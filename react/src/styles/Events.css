@@ -1,0 +1,133 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.events {
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 0 1.25rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c2c2c;
+}
+.events h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: #1a1a1a;
+}
+.events .intro {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+  color: #4d4d4d;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+.event-card {
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 1.75rem 1.5rem;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: box-shadow 0.3s ease;
+}
+.event-card:focus{
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  outline: none;
+}
+.event-card:hover {
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  outline: none;
+}
+.event-card header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.75rem;
+}
+.event-card h2 {
+  font-size: 1.3rem;
+  margin: 0;
+  color: #222;
+}
+.event-type {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+.event-card .datetime{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #444;
+  line-height: 1.4;
+}
+.event-card .location{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #444;
+  line-height: 1.4;
+}
+.event-card .contact{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #444;
+  line-height: 1.4;
+}
+.event-card .description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #444;
+  line-height: 1.4;
+}
+.event-card .contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+.event-card .contact a:hover,
+.event-card .contact a:focus {
+  text-decoration: underline;
+}
+.rsvp-button {
+  align-self: flex-start;
+  background-color: #28a745;
+  color: #fff;
+  padding: 0.6rem 1.1rem;
+  border-radius: 5px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.25s ease;
+  box-shadow: 0 3px 8px rgba(40, 167, 69, 0.4);
+}
+.rsvp-button:hover,
+.rsvp-button:focus {
+  background-color: #218838;
+  outline: none;
+  box-shadow: 0 4px 12px rgba(33, 136, 56, 0.7);
+}
+.event-adoption .event-type {
+  background-color: #ff6f61;
+}
+.event-health .event-type {
+  background-color: #17a2b8;
+}
+.event-education .event-type {
+  background-color: #ffc107;
+  color: #212529;
+}
+.event-fundraising .event-type {
+  background-color: #6f42c1;
+}
