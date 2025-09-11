@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Sarah Johnson",
+    "specialization": "Veterinary Surgeon",
+    "contact": "sarah.johnson@vetclinic.com | +234 800 123 4567",
+    "image": "https://via.placeholder.com/150",
+    "availableSlots": ["9:00 AM", "10:30 AM", "2:00 PM"],
+    "bookedSlots": ["11:00 AM", "1:00 PM"]
+  },
+  {
+    "id": 2,
+    "name": "Dr. James Okoro",
+    "specialization": "Pet Nutritionist",
+    "contact": "james.okoro@vetclinic.com | +234 801 987 6543",
+    "image": "https://via.placeholder.com/150",
+    "availableSlots": ["10:00 AM", "12:00 PM", "4:00 PM"],
+    "bookedSlots": ["9:30 AM", "3:00 PM"]
+  }
+]
