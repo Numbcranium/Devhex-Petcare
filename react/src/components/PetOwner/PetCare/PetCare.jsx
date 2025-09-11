@@ -9,7 +9,7 @@ const PetCare = () => {
     return(
         <>
         <div className="petcare-container">
-            <h2 className="section-title" id="Pet-Care">Pet Care</h2>
+         
 
             <PetProfile/>
             <FeedingGuide/>

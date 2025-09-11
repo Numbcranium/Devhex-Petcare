@@ -1,0 +1,124 @@
+.feedback-page {
+  background-color: #a67c52;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback-title {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.feedback-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 1.4;
+  max-width: 400px;
+  color: #f0e6db;
+}
+
+.feedback-form {
+  background-color: #f9f6f2;
+  border-radius: 15px;
+  padding: 30px 30px 40px 30px;
+  width: 100%;
+  max-width: 450px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+  color: #4a2c1a;
+}
+
+.form-label {
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 6px;
+  display: block;
+  color: #4a2c1a;
+}
+
+.required {
+  color: #a67c52;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  border: 1px solid #d3d3d3;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+  font-family: inherit;
+  color: #4a2c1a;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: #a67c52;
+  font-style: italic;
+}
+
+.star-rating {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.star {
+  font-size: 22px;
+  cursor: pointer;
+  color: #d3d3d3; 
+  user-select: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.star.filled {
+  color: #a67c52;
+}
+
+.submit-button {
+  background-color: #a67c52;
+  color: #f9f6f2;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 0;
+  width: 100%;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #8c6640;
+}
+
+.thank-you-message {
+  background-color: #f9f6f2;
+  color: #7a4f3a;
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin-top: 25px;
+  max-width: 450px;
+  text-align: center;
+  font-size: 14px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.1);
+}
+
+.thank-you-message strong {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
