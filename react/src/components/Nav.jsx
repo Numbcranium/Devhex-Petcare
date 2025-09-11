@@ -28,10 +28,10 @@ const Nav = ({ userCategory }) => {
         )}
         {userCategory === 'Animal Shelter' && (
           <>
-            <li><Link to="/shelter">Events</Link></li>
-            <li><Link to="/shelter">Gallery</Link></li>
-            <li><Link to="/shelter">Shelter Contact</Link></li>
-            <li><Link to="/shelter">Success Stories</Link></li>
+            <li>  <Link to="/shelter?section=events">Events</Link></li>
+            <li> <Link to="/shelter?section=pets">Adoptable Pets</Link></li>
+            <li> <Link to="/shelter?section=contact">Contact</Link></li>
+            <li> <Link to="/shelter?section=stories">Success Stories</Link></li>
           </>
         )}
       </ul>

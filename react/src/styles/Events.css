@@ -1,0 +1,11 @@
+.events-list {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.events-list li {
+  margin: 6px 0;
+  font-size: 15px;
+  color: #333;
+}

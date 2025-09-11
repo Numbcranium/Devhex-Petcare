@@ -1,0 +1,16 @@
+.contact-section {
+  margin-top: 20px;
+}
+
+.contact-section p {
+  font-size: 15px;
+  margin: 6px 0;
+  color: #444;
+}
+
+.map-container {
+  margin-top: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Bella",
+    "species": "Dog",
+    "breed": "Labrador",
+    "age": "2 years",
+    "description": "Friendly and energetic, loves children.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 2,
+    "name": "Milo",
+    "species": "Cat",
+    "breed": "Persian",
+    "age": "1 year",
+    "description": "Calm and affectionate indoor cat.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 3,
+    "name": "Snowy",
+    "species": "Rabbit",
+    "breed": "Angora",
+    "age": "6 months",
+    "description": "Fluffy rabbit, needs gentle care.",
+    "image": "https://via.placeholder.com/200"
+  }
+]
