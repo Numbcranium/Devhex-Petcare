@@ -15,7 +15,7 @@ const VeterinarianPage = ({ userName }) => {
 
   return (
     <div className="vet-page">
-      <h1>Welcome, Dr. {userName ? userName : "Guest"}!</h1>
+      {/* <h1>Welcome, Dr. {userName ? userName : "Guest"}!</h1> */}
      
 
 

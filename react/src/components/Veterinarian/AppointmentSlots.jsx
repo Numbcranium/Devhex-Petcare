@@ -10,16 +10,98 @@ const AppointmentSlots = () => {
   }, []);
 
   return (
-    <div>
-      <h2>Appointment Slots</h2>
-      {vets.map((vet) => (
-        <div key={vet.id} className="vet-card">
-          <h3>{vet.name}</h3>
-          <p><strong>Available:</strong> {vet.availableSlots.join(", ")}</p>
-          <p><strong>Booked:</strong> {vet.bookedSlots.join(", ")}</p>
-        </div>
-      ))}
-    </div>
+      <div className="main-content">
+            <div className="section">
+                <h2 className="section-title">
+                    <div className="section-icon"></div>
+                    Appointment Schedule
+                </h2>
+                <div className="appointment-grid">
+                    <div className="time-slot-group">
+                        <div className="date-header">Today - Friday, Sep 12, 2025</div>
+                        <div className="time-slots">
+                            <div className="time-slot booked">09:00 AM - Booked</div>
+                            <div className="time-slot available">10:30 AM - Available</div>
+                            <div className="time-slot booked">12:00 PM - Booked</div>
+                            <div className="time-slot available">02:30 PM - Available</div>
+                            <div className="time-slot booked">04:00 PM - Booked</div>
+                            <div className="time-slot available">05:30 PM - Available</div>
+                        </div>
+                    </div>
+                    
+                    <div className="time-slot-group">
+                        <div className="date-header">Tomorrow - Saturday, Sep 13, 2025</div>
+                        <div className="time-slots">
+                            <div className="time-slot available">08:30 AM - Available</div>
+                            <div className="time-slot available">10:00 AM - Available</div>
+                            <div className="time-slot available">11:30 AM - Available</div>
+                            <div className="time-slot booked">01:00 PM - Booked</div>
+                            <div className="time-slot available">03:30 PM - Available</div>
+                            <div className="time-slot available">05:00 PM - Available</div>
+                        </div>
+                    </div>
+                    
+                     <div className="time-slot-group">
+                        <div className="date-header">Tomorrow - Saturday, Sep 13, 2025</div>
+                        <div className="time-slots">
+                            <div className="time-slot available">08:30 AM - Available</div>
+                            <div className="time-slot available">10:00 AM - Available</div>
+                            <div className="time-slot available">11:30 AM - Available</div>
+                            <div className="time-slot booked">01:00 PM - Booked</div>
+                            <div className="time-slot available">03:30 PM - Available</div>
+                            <div className="time-slot available">05:00 PM - Available</div>
+                        </div>
+                    </div>
+
+                     <div className="time-slot-group">
+                        <div className="date-header">Tomorrow - Saturday, Sep 13, 2025</div>
+                        <div className="time-slots">
+                            <div className="time-slot available">08:30 AM - Available</div>
+                            <div className="time-slot available">10:00 AM - Available</div>
+                            <div className="time-slot available">11:30 AM - Available</div>
+                            <div className="time-slot booked">01:00 PM - Booked</div>
+                            <div className="time-slot available">03:30 PM - Available</div>
+                            <div className="time-slot available">05:00 PM - Available</div>
+                        </div>
+                    </div>
+
+                     <div className="time-slot-group">
+                        <div className="date-header">Tomorrow - Saturday, Sep 13, 2025</div>
+                        <div className="time-slots">
+                            <div className="time-slot available">08:30 AM - Available</div>
+                            <div className="time-slot available">10:00 AM - Available</div>
+                            <div className="time-slot available">11:30 AM - Available</div>
+                            <div className="time-slot booked">01:00 PM - Booked</div>
+                            <div className="time-slot available">03:30 PM - Available</div>
+                            <div className="time-slot available">05:00 PM - Available</div>
+                        </div>
+                    </div>
+                     <div className="time-slot-group">
+                        <div className="date-header">Tomorrow - Saturday, Sep 13, 2025</div>
+                        <div className="time-slots">
+                            <div className="time-slot available">08:30 AM - Available</div>
+                            <div className="time-slot available">10:00 AM - Available</div>
+                            <div className="time-slot available">11:30 AM - Available</div>
+                            <div className="time-slot booked">01:00 PM - Booked</div>
+                            <div className="time-slot available">03:30 PM - Available</div>
+                            <div className="time-slot available">05:00 PM - Available</div>
+                        </div>
+                    </div>
+
+                     <div className="time-slot-group">
+                        <div className="date-header">Tomorrow - Saturday, Sep 13, 2025</div>
+                        <div className="time-slots">
+                            <div className="time-slot available">08:30 AM - Available</div>
+                            <div className="time-slot available">10:00 AM - Available</div>
+                            <div className="time-slot available">11:30 AM - Available</div>
+                            <div className="time-slot booked">01:00 PM - Booked</div>
+                            <div className="time-slot available">03:30 PM - Available</div>
+                            <div className="time-slot available">05:00 PM - Available</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
   );
 };
 
