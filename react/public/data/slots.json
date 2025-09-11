@@ -1,0 +1,8 @@
+[
+  { "time": "09:00 AM", "status": "Booked" },
+  { "time": "10:00 AM", "status": "Available" },
+  { "time": "11:00 AM", "status": "Available" },
+  { "time": "01:00 PM", "status": "Booked" },
+  { "time": "02:00 PM", "status": "Available" },
+  { "time": "03:00 PM", "status": "Available" }
+]
