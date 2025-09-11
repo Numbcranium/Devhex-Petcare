@@ -25,14 +25,23 @@
             justify-content: space-between;
             align-items: center;
         }
-
+   footer {
+            margin-top: auto;
+            margin-bottom: -20px;
+        }
+        .main-content {
+            max-width: 1400px;
+            min-height: 100vh;
+            display: flex;
+          
+            flex-direction: column;
+            gap: 4rem;
+         
+        }
        .section {
             background: white;
-        margin-left: -45px;
-        margin-top: -47px;
             padding: 2rem;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-            border-left: 5px solid #BC9A6E;
+       
         }
 
         .section-title {
