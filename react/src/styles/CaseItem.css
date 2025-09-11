@@ -1,4 +1,0 @@
-.case-card{padding:14px;border-radius:8px;border:1px solid #eee;background:#fff;transition:transform .18s ease,box-shadow .18s ease}
-.case-card:hover{transform:translateY(-6px);box-shadow:0 12px 30px rgba(0,0,0,0.08)}
-.case-card h3{margin:0 0 8px}
-.case-notes{color:var(--muted);font-size:.95rem;margin-top:8px}

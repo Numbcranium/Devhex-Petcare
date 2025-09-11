@@ -1,0 +1,28 @@
+.vet-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.vet-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.vet-form button {
+  padding: 10px;
+  background: #9C7456;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.vet-form button:hover {
+  background: #7A5B42;
+}

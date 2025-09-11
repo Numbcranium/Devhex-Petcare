@@ -20,17 +20,18 @@ const Nav = ({ userCategory }) => {
         )}
         {userCategory === 'Veterinarian' && (
           <>
-            <li><Link to="/veterinarian">Profile</Link></li>
-            <li><Link to="/veterinarian">Appointments</Link></li>
-            <li><Link to="/veterinarian">Medical Histories</Link></li>
+            <li><Link to="/veterinarian?section=profiles">Profiles</Link></li>
+            <li><Link to="/veterinarian?section=add-vet">Add Vet</Link></li>
+            <li><Link to="/veterinarian?section=appointments">Appointments</Link></li>
+            <li> <Link to="/veterinarian?section=history">Medical History</Link></li>
           </>
         )}
         {userCategory === 'Animal Shelter' && (
           <>
-            <li><Link to="/shelter">Events</Link></li>
-            <li><Link to="/shelter">Gallery</Link></li>
-            <li><Link to="/shelter">Shelter Contact</Link></li>
-            <li><Link to="/shelter">Success Stories</Link></li>
+            <li>  <Link to="/shelter?section=events">Events</Link></li>
+            <li> <Link to="/shelter?section=pets">Adoptable Pets</Link></li>
+            <li> <Link to="/shelter?section=contact">Contact</Link></li>
+            <li> <Link to="/shelter?section=stories">Success Stories</Link></li>
           </>
         )}
       </ul>
