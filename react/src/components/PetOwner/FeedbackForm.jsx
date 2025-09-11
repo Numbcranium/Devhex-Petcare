@@ -16,9 +16,9 @@ const FeedbackForm = () => {
       <div className="container">
 
         {/* <div className="page-header">
-            <h2>Share Your Feedback</h2>
-            <p>We value your opinion and would love to hear about your experience with FurEver Care</p>
-        </div> */}
+           <p>We value your opinion and would love to hear about your experience with FurEver Care</p>
+        </div> */}      <h2>Share Your Feedback</h2>
+       
 
         <div className="feedback-form">
             <form id="feedbackForm">

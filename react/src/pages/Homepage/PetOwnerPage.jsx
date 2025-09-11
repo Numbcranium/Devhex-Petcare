@@ -5,6 +5,7 @@ import ContactUs from '../../components/PetOwner/ContactUs/ContactUs';
 import EmergencyHelp from '../../components/PetOwner/EmergencyHelp';
 import FeedbackForm from '../../components/PetOwner/FeedbackForm';
 import React from 'react';
+import PetProducts from '../../components/PetProductShowcase'
 
 
 const PetOwnerPage = ({ userName }) => {
@@ -22,7 +23,7 @@ const PetOwnerPage = ({ userName }) => {
       <section>
         {/* <h2>About Us</h2> */}
         {section === 'contact-us' && <AboutUs />}
-        {section === 'products' && <div>Products Section Content</div>}
+        {section === 'products' && <PetProducts/>}
         {section === 'emergency' && <EmergencyHelp />}
         {section === 'feedback' && <FeedbackForm/>}
       </section>
