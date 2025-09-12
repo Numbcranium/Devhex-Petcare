@@ -1,4 +1,4 @@
-import '../styles/signIn.css'
+import '../styles/signin.css'
 import { BiUser } from 'react-icons/bi';
 import { BiEnvelope } from 'react-icons/bi';
 import { BiLock } from 'react-icons/bi';
