@@ -12,7 +12,7 @@ const TrainingTips = () => {
   return (
             <div class="care-card">
                 <h3>
-                    <div class="card-icon">🎓</div>
+                    <div class="card-icon"></div>
                     Training Tips
                 </h3>
             <div class="media-grid">

@@ -4,7 +4,7 @@ import { BiChevronDown } from 'react-icons/bi'
 import { FiArrowUpRight } from 'react-icons/fi'
 import { useEffect, useState } from 'react'
 import { BsFilter } from 'react-icons/bs'
-import productsData from '../public/data/products.json'
+import productsData from '../../public/data/products.json'
 import categoriesData from '../data/categories.json'
 import brandsData from '../data/brands.json'
 

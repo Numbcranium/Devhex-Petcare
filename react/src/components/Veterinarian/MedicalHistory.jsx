@@ -12,7 +12,7 @@ const MedicalHistory = () => {
   return (
      <div className="section">
                 <h2 className="section-title">
-                    <div className="section-icon">📋</div>
+                    <div className="section-icon"></div>
                     Sample Pet Medical Histories
                 </h2>
                 <div className="case-studies">
