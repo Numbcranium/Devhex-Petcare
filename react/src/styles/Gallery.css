@@ -8,8 +8,8 @@
   margin: 0 8px;
   padding: 10px 18px;
   border: none;
-  background: var(--light-brown);
-  color: white;
+  background: #7A5B42;
+  color: #F5F0E6;
   border-radius: 25px;
   cursor: pointer;
   font-size: 15px;
@@ -18,11 +18,27 @@
 
 .filter-buttons button.active,
 .filter-buttons button:hover {
-  background: var(--rust-brown);
+  background: #5C4430;
   transform: translateY(-2px);
 }
 
 /* Pet Gallery */
+.gallery-section {
+  padding: 30px;
+  background-color: #F5F0E6;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.gallery-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
+  color: #7A5B42;
+}
+
 .pet-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -30,7 +46,7 @@
 }
 
 .pet-card {
-  background: var(--white);
+  background: #fff;
   border-radius: 16px;
   padding: 20px;
   text-align: center;
@@ -53,7 +69,7 @@
 
 .pet-card h3 {
   font-size: 20px;
-  color: var(--primary-brown);
+  color: #7A5B42;
   margin-bottom: 8px;
 }
 
@@ -61,4 +77,167 @@
   font-size: 14px;
   margin: 3px 0;
   color: #555;
+}
+
+/* Responsive styles */
+
+/* Mobile small (less than 480px) */
+@media (max-width: 479px) {
+  .gallery-section {
+    padding: 15px;
+  }
+  .gallery-title {
+    font-size: 1.5rem;
+  }
+  .pet-card {
+    padding: 15px;
+  }
+  .pet-card h3 {
+    font-size: 1.2rem;
+  }
+  .pet-card p {
+    font-size: 0.9rem;
+  }
+  .filter-buttons button {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile medium (480px to 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+  .gallery-section {
+    padding: 20px;
+  }
+  .gallery-title {
+    font-size: 1.75rem;
+  }
+  .pet-card {
+    padding: 18px;
+  }
+  .pet-card h3 {
+    font-size: 1.4rem;
+  }
+  .pet-card p {
+    font-size: 1rem;
+  }
+  .filter-buttons button {
+    padding: 9px 14px;
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile large (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .gallery-section {
+    padding: 25px;
+  }
+  .gallery-title {
+    font-size: 1.9rem;
+  }
+  .pet-card {
+    padding: 20px;
+  }
+  .pet-card h3 {
+    font-size: 1.5rem;
+  }
+  .pet-card p {
+    font-size: 1.05rem;
+  }
+  .filter-buttons button {
+    padding: 10px 15px;
+    font-size: 1rem;
+  }
+}
+
+/* Tablet small (1024px to 1199px) */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .gallery-section {
+    padding: 30px;
+  }
+  .gallery-title {
+    font-size: 2rem;
+  }
+  .pet-card {
+    padding: 22px;
+  }
+  .pet-card h3 {
+    font-size: 1.6rem;
+  }
+  .pet-card p {
+    font-size: 1.1rem;
+  }
+  .filter-buttons button {
+    padding: 11px 16px;
+    font-size: 1.05rem;
+  }
+}
+
+/* Tablet medium (1200px to 1439px) */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .gallery-section {
+    padding: 35px;
+  }
+  .gallery-title {
+    font-size: 2.1rem;
+  }
+  .pet-card {
+    padding: 24px;
+  }
+  .pet-card h3 {
+    font-size: 1.7rem;
+  }
+  .pet-card p {
+    font-size: 1.15rem;
+  }
+  .filter-buttons button {
+    padding: 12px 18px;
+    font-size: 1.1rem;
+  }
+}
+
+/* Laptop small (1440px to 1919px) */
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .gallery-section {
+    padding: 40px;
+  }
+  .gallery-title {
+    font-size: 2.2rem;
+  }
+  .pet-card {
+    padding: 26px;
+  }
+  .pet-card h3 {
+    font-size: 1.8rem;
+  }
+  .pet-card p {
+    font-size: 1.2rem;
+  }
+  .filter-buttons button {
+    padding: 13px 20px;
+    font-size: 1.15rem;
+  }
+}
+
+/* Laptop medium and large (1920px and above) */
+@media (min-width: 1920px) {
+  .gallery-section {
+    padding: 45px;
+  }
+  .gallery-title {
+    font-size: 2.4rem;
+  }
+  .pet-card {
+    padding: 28px;
+  }
+  .pet-card h3 {
+    font-size: 2rem;
+  }
+  .pet-card p {
+    font-size: 1.25rem;
+  }
+  .filter-buttons button {
+    padding: 14px 22px;
+    font-size: 1.2rem;
+  }
 }

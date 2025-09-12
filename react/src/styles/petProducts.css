@@ -24,7 +24,7 @@
 .filterBlock h2{
     padding-bottom: 15px;
     border-bottom: 1px solid #BC9A6E;
-    /* /#f3eeeb */
+
 }
 .options{
     display: flex;
@@ -154,7 +154,7 @@
     cursor: pointer;
 }
 
-/* responsiveness */
+
 
 @media(max-width: 1400px){
     .productCard img{

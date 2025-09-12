@@ -34,7 +34,7 @@
   }
 }
 
-/* Mobile small (less than 480px) */
+
 @media (max-width: 479px) {
   .footer {
     padding: 0.5rem;
@@ -48,7 +48,7 @@
   }
 }
 
-/* Mobile medium (480px to 767px) */
+
 @media (min-width: 480px) and (max-width: 767px) {
   .footer {
     padding: 0.75rem;
@@ -62,7 +62,7 @@
   }
 }
 
-/* Mobile large (768px to 1023px) */
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .footer {
     padding: 1rem;
@@ -76,7 +76,7 @@
   }
 }
 
-/* Tablet small (1024px to 1199px) */
+
 @media (min-width: 1024px) and (max-width: 1199px) {
   .footer {
     padding: 1rem;
@@ -90,7 +90,7 @@
   }
 }
 
-/* Tablet medium (1200px to 1439px) */
+
 @media (min-width: 1200px) and (max-width: 1439px) {
   .footer {
     padding: 1.25rem;
@@ -104,7 +104,7 @@
   }
 }
 
-/* Laptop small (1440px to 1919px) */
+
 @media (min-width: 1440px) and (max-width: 1919px) {
   .footer {
     padding: 1.5rem;
@@ -118,7 +118,6 @@
   }
 }
 
-/* Laptop medium and large (1920px and above) */
 @media (min-width: 1920px) {
   .footer {
     padding: 1.75rem;

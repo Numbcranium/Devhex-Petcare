@@ -14,8 +14,8 @@ const AdoptablePets = () => {
     filter === "All" ? pets : pets.filter((p) => p.species === filter);
 
   return (
-    <div>
-      <h2>Adoptable Pets</h2>
+    <section className="gallery-section">
+      <h2 className="gallery-title">Find Your New Best Friend</h2>
       <div className="filter-buttons">
         {["All", "Dog", "Cat", "Rabbit"].map((type) => (
           <button
@@ -39,7 +39,7 @@ const AdoptablePets = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

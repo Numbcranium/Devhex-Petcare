@@ -117,9 +117,7 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         }
 
-/* Responsive styles */
 
-/* Mobile small (less than 480px) */
 @media (max-width: 479px) {
   .appointment-grid {
     grid-template-columns: 1fr;
@@ -147,7 +145,7 @@
   }
 }
 
-/* Mobile medium (480px to 767px) */
+
 @media (min-width: 480px) and (max-width: 767px) {
   .appointment-grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -175,7 +173,6 @@
   }
 }
 
-/* Mobile large (768px to 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
   .appointment-grid {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -203,7 +200,7 @@
   }
 }
 
-/* Tablet small (1024px to 1199px) */
+
 @media (min-width: 1024px) and (max-width: 1199px) {
   .appointment-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -231,7 +228,7 @@
   }
 }
 
-/* Tablet medium (1200px to 1439px) */
+
 @media (min-width: 1200px) and (max-width: 1439px) {
   .appointment-grid {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -259,7 +256,7 @@
   }
 }
 
-/* Laptop small (1440px to 1919px) */
+
 @media (min-width: 1440px) and (max-width: 1919px) {
   .appointment-grid {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -287,7 +284,7 @@
   }
 }
 
-/* Laptop medium and large (1920px and above) */
+
 @media (min-width: 1920px) {
   .appointment-grid {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
