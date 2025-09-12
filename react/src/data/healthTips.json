@@ -1,6 +1,26 @@
 [
-  "Brush your pet’s teeth 2-3 times a week for oral care.",
-  "Keep your pet at a healthy weight with balanced meals.",
-  "Regular vet visits every 6–12 months.",
-  "Provide flea/tick prevention regularly."
+  {
+    "title": "Dental Care",
+    "description": "Brush teeth 2-3 times weekly to prevent dental disease"
+  },
+  {
+    "title": "Weight Management",
+    "description": "Monitor weight regularly and adjust diet as needed"
+  },
+  {
+    "title": "Vaccination Schedule",
+    "description": "Keep vaccinations up to date for optimal health protection"
+  },
+  {
+    "title": "Regular Check-ups",
+    "description": "Annual vet visits help catch health issues early"
+  },
+  {
+    "title": "Exercise Routine",
+    "description": "Daily walks and playtime keep pets fit and healthy"
+  },
+  {
+    "title": "Parasite Prevention",
+    "description": "Monthly flea and tick prevention is essential"
+  }
 ]
