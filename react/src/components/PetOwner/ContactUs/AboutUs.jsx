@@ -83,8 +83,8 @@ const AboutUs = () => {
         <h2>Our Location</h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046706e%3A0x21bd4d4ae4980dd4!2sCentral%20Park!5e0!3m2!1sen!2sus!4v1623456789012!5m2!1sen!2sus"
-          width="100%"
-          height="260vh"
+          width="100vw"
+          height="60vh"
           style={{ border: 0 }}
           allowFullScreen=""
           loading="lazy"

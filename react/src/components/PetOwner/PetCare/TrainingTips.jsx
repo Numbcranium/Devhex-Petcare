@@ -15,11 +15,6 @@ const TrainingTips = () => {
                     <div class="card-icon">🎓</div>
                     Training Tips
                 </h3>
-               <div class="care-card">
-                <h3>
-                    <div class="card-icon">🎓</div>
-                    Training Tips
-                </h3>
             <div class="media-grid">
                 {tips.map((tip, index) => (
                     <div key={index} className="media-item">
@@ -30,7 +25,6 @@ const TrainingTips = () => {
                         </div>
                     </div>
                 ))}
-            </div>
             </div>
             </div>
   );
