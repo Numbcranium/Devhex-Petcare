@@ -1,11 +1,53 @@
-.events-list {
-  list-style: disc;
-  padding-left: 20px;
+.events-section {
+  /* background: var(--warm-brown); */
+  padding: 30px;
+  border-radius: 16px;
+  color: var(--white);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
   margin-bottom: 30px;
 }
 
-.events-list li {
-  margin: 6px 0;
-  font-size: 15px;
-  color: #333;
+.events-section h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
 }
+
+.events-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.events-list li {
+  margin: 12px 0;
+  padding: 12px 15px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.events-list li::before {
+  content: "📅";
+}
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.event-card {
+  background-color: rgb(171, 29, 29);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+

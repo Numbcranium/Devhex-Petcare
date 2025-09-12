@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import background from '../../assets/dogplayinghomepage.webm';
 import LocationTicker from '../../components/LocationTicker';
 
 const Homepage = ({ setUserName, setUserCategory }) => {
@@ -18,8 +19,28 @@ const Homepage = ({ setUserName, setUserCategory }) => {
     }
   };
 
+
+
   return (
-    <div style={{ padding: '2rem', backgroundColor: '#BC9A6E', minHeight: '100vh', color: '#6A443E' }}>
+    <div style={{ padding: '2rem',position: 'relative', overflow: 'hidden', minHeight: '100vh',zIndex: '1', color: '#6A443E' }}>
+        <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        style={{
+          position: 'absolute',
+          width: '100%',
+          height: '100vh',
+          objectFit: 'cover',
+          top: 0,
+          left: 0,
+          zIndex: -1,
+        }}
+        >
+            <source src={background} type="video/webm" />
+            Your browser does not support the video tag.
+        </video>
       <h1 style={{ textAlign: 'center', fontSize: '2.5rem', marginBottom: '1rem' }}>Welcome to FurEver Care</h1>
       <p style={{ textAlign: 'center', fontSize: '1.2rem', marginBottom: '2rem' }}>They Deserve Forever Love</p>
       <form onSubmit={handleSubmit} style={{ maxWidth: '400px', margin: '0 auto', backgroundColor: '#B78960', padding: '2rem', borderRadius: '8px', boxShadow: '0 0 10px rgba(0,0,0,0.1)' }}>
