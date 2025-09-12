@@ -4,7 +4,6 @@ import AdoptablePets from "../../components/AnimalShelters/Gallery";
 import SuccessStories from "../../components/AnimalShelters/SuccessStories";
 import Events from "../../components/AnimalShelters/Events";
 import ContactInfo from "../../components/AnimalShelters/ShelterContact";
-import backgroundtwo from '../../assets/shelterpagedogsplaying.webm';
 import "../../styles/Shelter.css";
 
 const ShelterPage = ({ userName }) => {
