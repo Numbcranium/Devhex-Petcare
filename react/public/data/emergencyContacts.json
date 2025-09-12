@@ -1,0 +1,52 @@
+{
+  "clinics": [
+    {
+      "name": "PetCare Emergency Clinic",
+      "phone": "+1 (234) 567-8900",
+      "details": "24/7 Emergency • 123 Pet Street, City"
+    },
+    {
+      "name": "Animal Medical Center",
+      "phone": "+1 (234) 567-8901",
+      "details": "Mon - Fri 8AM - 10PM • 456 Care Avenue"
+    },
+    {
+      "name": "City Veterinary Hospital",
+      "phone": "+1 (234) 567-8902",
+      "details": "24/7 Emergency • 789 Health Boulevard"
+    },
+    {
+      "name": "Pet Emergency Services",
+      "phone": "+1 (234) 567-8903",
+      "details": "Weekend & Holiday Coverage"
+    }
+  ],
+  "poisonControl": [
+    {
+      "name": "Pet Poison Helpline",
+      "phone": "+1 (855) 400-6670",
+      "details": "24/7 Emergency Poison Support"
+    },
+    {
+      "name": "ASPCA Poison Control",
+      "phone": "+1 (888) 426-4435",
+      "details": "Available 24/7 • Fee may apply"
+    },
+    {
+      "name": "Animal Emergency Line",
+      "phone": "+1 (234) 567-8904",
+      "details": "Local Emergency Response"
+    },
+    {
+      "name": "Veterinary Poison Info",
+      "phone": "+1 (234) 567-8905",
+      "details": "Professional Consultation Available"
+    }
+  ],
+  "contact": {
+    "address": "123 Pet Care Boulevard\nAnimal City, AC 12345",
+    "email": "emergency@furevercare.com",
+    "supportEmail": "support@furevercare.com",
+    "supportLine": "+1 (234) 567-8900"
+  }
+}

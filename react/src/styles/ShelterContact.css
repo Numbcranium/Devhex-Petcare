@@ -1,0 +1,26 @@
+.contact-section {
+  text-align: center;
+  padding: 30px;
+  background: var(--white);
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.contact-section h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: var(--primary-brown);
+}
+
+.contact-section p {
+  font-size: 15px;
+  margin: 8px 0;
+  color: #444;
+}
+
+.map-container {
+  margin-top: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}

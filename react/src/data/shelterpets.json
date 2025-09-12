@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "name": "Bella",
+    "species": "Dog",
+    "breed": "Labrador",
+    "age": "2 years",
+    "description": "Friendly and energetic, loves children.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 2,
+    "name": "Milo",
+    "species": "Cat",
+    "breed": "Persian",
+    "age": "1 year",
+    "description": "Calm and affectionate indoor cat.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 3,
+    "name": "Snowy",
+    "species": "Rabbit",
+    "breed": "Angora",
+    "age": "6 months",
+    "description": "Fluffy rabbit, needs gentle care.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 4,
+    "name": "Coco",
+    "species": "Dog",
+    "breed": "Poodle",
+    "age": "4 years",
+    "description": "Intelligent and hypoallergenic.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 5,
+    "name": "Luna",
+    "species": "Cat",
+    "breed": "Siamese",
+    "age": "3 years",
+    "description": "Vocal and social, loves attention.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 6,
+    "name": "Thumper",
+    "species": "Rabbit",
+    "breed": "Dutch",
+    "age": "1 year",
+    "description": "Playful and curious, enjoys hopping around.",
+    "image": "https://via.placeholder.com/200"
+  },
+  {
+    "id": 7,
+    "name": "Buddy",
+    "type": "Dog",
+    "age": "2 years",
+    "image": "/images/pets/dog1.jpg",
+    "description": "A playful Labrador who loves kids and outdoor walks."
+  },
+  {
+    "id": 8,
+    "name": "Mittens",
+    "type": "Cat",
+    "age": "1 year",
+    "image": "/images/pets/cat1.jpg",
+    "description": "A gentle tabby cat who enjoys quiet naps in the sun."
+  },
+  {
+    "id": 9,
+    "name": "Charlie",
+    "type": "Dog",
+    "age": "3 years",
+    "image": "/images/pets/dog2.jpg",
+    "description": "An energetic Beagle who loves sniffing adventures."
+  },
+  {
+    "id": 10,
+    "name": "Luna",
+    "type": "Cat",
+    "age": "6 months",
+    "image": "/images/pets/cat2.jpg",
+    "description": "A curious kitten full of energy and cuddles."
+  }
+]
+

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "petName": "Buddy",
+    "species": "Dog",
+    "condition": "Parvo Recovery",
+    "treatment": "IV fluids, antibiotics, special diet",
+    "notes": "Responding well to treatment, check-up next week"
+  },
+  {
+    "id": 2,
+    "petName": "Milo",
+    "species": "Cat",
+    "condition": "Dental Issue",
+    "treatment": "Tooth extraction, oral antibiotics",
+    "notes": "Healing fine, needs follow-up in 2 weeks"
+  }
+]

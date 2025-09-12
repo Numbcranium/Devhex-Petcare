@@ -1,0 +1,252 @@
+.productsCon{
+    width: 100%;
+    padding: 100px 90px;
+    font-family: cursive;
+    background-color: whitesmoke;
+}
+.flexCon{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+.filters{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.filterBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.filterBlock h2{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #BC9A6E;
+    /* /#f3eeeb */
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.options li{
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+.options li:hover{
+    color: #B78960;
+    transition: 0.8s ease;
+}
+.priceRange{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.filterB{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border: none;
+    background: #b78960b6;
+    border-radius: 30px;
+    color: white;
+    font-family: cursive;
+    cursor: pointer;
+    width: fit-content;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.inputs input{
+    width: 100%;
+    padding: 13px 20px;
+    font-family: cursive;
+    font-size: 14px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.inputs input:focus{
+    outline: #B78960;
+    border: 1px solid #B78960;
+}
+.products{
+    width: 77%;
+}
+.results{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.results p{
+    font-size: 20px;
+}
+.side{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.searchBar{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: 1px solid #f3eeeb;
+}
+.searchBar input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: cursive;
+    font-size: 15px;
+}
+.productsGrid{
+    padding-top: 40px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.productCard{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+.productCard img{
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.buy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buyNow{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border: none;
+    background: black;
+    border-radius: 30px;
+    color: white;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+/* responsiveness */
+
+@media(max-width: 1400px){
+    .productCard img{
+        height: 300px;
+    }
+}
+@media(max-width: 1300px){
+    .productsCon{
+        padding: 100px 70px;
+    }
+    .productsGrid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .productCard img{
+        height: 400px;
+    }
+}
+@media(max-width: 1080px){
+    .productCard img{
+        height: 350px;
+    }
+}
+@media(max-width: 1000px){
+    .productCard img{
+        height: 300px;
+    }
+}
+@media(max-width: 900px){
+    .flexCon{
+        flex-direction: column;
+    }
+    .filters{
+        width: 100%;
+    }
+    .options{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .products{
+        width: 100%;
+    }
+    .productsGrid img{
+        height: 400px;
+    }
+}
+@media(max-width: 800px){
+    .productsGrid img{
+        height: 350px;
+    }
+    .results p{
+        font-size: 17px;
+    }
+}
+@media(max-width: 700px){
+    .productsGrid img{
+        height: 300px;
+    }
+}
+@media(max-width: 600px){
+    .productsGrid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .productCard img{
+        height: 400px;
+    }
+    
+}
+@media(max-width: 500px){
+    .productsCon{
+        padding: 100px 35px;
+    }  
+    .results{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .side{
+        width: 100%;
+    }
+    .searchBar{
+        width: 100%;
+    }
+
+}
+@media(max-width: 400px){
+    .productCard img{
+        height: 320px;
+    }
+
+}
+@media(max-width: 350px){
+    .productCard img{
+        height: 300px;
+    }
+
+}

@@ -1,0 +1,28 @@
+[33mc005e24[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/animal-shelter[m[33m, [m[1;31morigin/feature/animal-shelter[m[33m)[m HEAD@{0}: reset: moving to HEAD
+[33mc005e24[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/animal-shelter[m[33m, [m[1;31morigin/feature/animal-shelter[m[33m)[m HEAD@{1}: reset: moving to HEAD~1
+[33m685f534[m HEAD@{2}: checkout: moving from temp-branch to feature/animal-shelter
+[33m8868277[m[33m ([m[1;32mtemp-branch[m[33m)[m HEAD@{3}: commit (initial): Temporary commit for Gallery
+[33m685f534[m HEAD@{4}: commit: Start fresh
+[33mc005e24[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/animal-shelter[m[33m, [m[1;31morigin/feature/animal-shelter[m[33m)[m HEAD@{5}: reset: moving to c005e24e12e4713aa2cba38c87529891320e1172
+[33mc950c40[m HEAD@{6}: reset: moving to HEAD~1
+[33mb860a6e[m HEAD@{7}: commit: Add ShelterPage.css
+[33mc950c40[m HEAD@{8}: reset: moving to origin/main
+[33m1cd5e77[m HEAD@{9}: commit: My own commit: ShelterPage.jsx and CSS update
+[33mc950c40[m HEAD@{10}: reset: moving to origin/main
+[33mab03322[m HEAD@{11}: commit: Update ShelterPage.jsx and add ShelterPage.css
+[33m26f307f[m HEAD@{12}: commit: Update SuccessStories.jsx and add SuccessStories.css
+[33m0dda3e6[m HEAD@{13}: commit: Update ShelterContact.jsx and add ShelterContact.css
+[33md012a07[m HEAD@{14}: commit: Update Events.jsx and Events.css
+[33m258b3af[m HEAD@{15}: commit: Update App.jsx
+[33m62f1d25[m HEAD@{16}: commit: Update App.jsx
+[33md8c4f5d[m HEAD@{17}: commit: Update App.jsx and App.css
+[33mf2a4315[m HEAD@{18}: commit: Update Gallery component with [brief description of changes]
+[33mdac88d6[m HEAD@{19}: commit: Update Gallery component with [brief description of changes]
+[33m42f010b[m HEAD@{20}: commit: Update Gallery component with [brief description of changes]
+[33mca02896[m HEAD@{21}: commit: Update Gallery component with [brief description of changes]
+[33mb48e6d2[m HEAD@{22}: commit: Update Gallery component with [brief description of changes]
+[33m74077c2[m HEAD@{23}: commit: Add Gallery component with filtering and expand/collapse features
+[33m505a7e6[m[33m ([m[1;32mmain[m[33m)[m HEAD@{24}: checkout: moving from main to feature/animal-shelter
+[33m505a7e6[m[33m ([m[1;32mmain[m[33m)[m HEAD@{25}: checkout: moving from feature/animal-shelter to main
+[33m505a7e6[m[33m ([m[1;32mmain[m[33m)[m HEAD@{26}: checkout: moving from main to feature/animal-shelter
+[33m505a7e6[m[33m ([m[1;32mmain[m[33m)[m HEAD@{27}: clone: from https://github.com/Numbcranium/Devhex-Petcare.git
