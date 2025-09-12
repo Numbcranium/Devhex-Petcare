@@ -1,12 +1,15 @@
 import { Link } from 'react-router-dom';
 import './Nav.css';
+import VisitorCounter from './VisitorCounter';
 
 const Nav = ({ userCategory }) => {
   return (
-    <nav className="navbar">
+    <nav className="navbar" style={{zIndex:"100"}}>
       <div className="nav-logo">
         <Link to="/">FurEver Care</Link>
       </div>
+      <div className='visit'><VisitorCounter /></div>
+      
       <ul className="nav-menu">
         <li><Link to="/">Home</Link></li>
         {userCategory === 'Pet Owner' && (

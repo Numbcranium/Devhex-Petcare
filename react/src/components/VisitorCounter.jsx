@@ -5,7 +5,7 @@ const VisitorCounter = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCount((prev) => prev + Math.floor(Math.random() * 5) + 1);
+      setCount((prev) => prev + Math.floor(Math.random() * 2) + 1);
     }, 5000);
     return () => clearInterval(interval);
   }, []);

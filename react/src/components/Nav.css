@@ -5,6 +5,7 @@
   background-color: #BC9A6E;
   padding: 1rem;
   color: #6A443E;
+  border-radius: 30px;
 }
 
 .nav-logo a {
@@ -12,8 +13,12 @@
   font-weight: bold;
   text-decoration: none;
   color: #6A443E;
-}
+  border-radius: 20px;
 
+}
+.visit{
+  margin-right: 400px;
+}
 .nav-menu {
   list-style: none;
   display: flex;
