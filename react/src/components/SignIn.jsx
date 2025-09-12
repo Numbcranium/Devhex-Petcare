@@ -4,7 +4,7 @@ import { BiEnvelope } from 'react-icons/bi';
 import { BiLock } from 'react-icons/bi';
 import { BiSolidUser } from 'react-icons/bi';
 import { BiUserPlus } from 'react-icons/bi';
-// import { BiUser } from 'react-icons/bi';
+
 
 const SignInPage = () => {
     return(

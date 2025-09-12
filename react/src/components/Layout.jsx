@@ -11,7 +11,7 @@ export default function Layout() {
         <Outlet />
       </main>
       <footer className="app-footer">
-        <small>FurEver Care — They deserve forever love ❤️</small>
+        <small>FurEver Care — They deserve forever love </small>
       </footer>
     </div>
   );

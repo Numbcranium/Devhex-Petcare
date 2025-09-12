@@ -1,14 +1,16 @@
 import React, { useMemo, useState } from "react";
+import shelterpets from "../../data/shelterpets.json";
 import "../../styles/Gallery.css";
 
-const petsData = [
-  { id: 1, type: "Dog", name: "Labrador", age: "2 years", breed: "Labrador Retriever", img: "https://images.unsplash.com/photo-1558788353-f76d92427f16?q=80&w=1200&auto=format&fit=crop", desc: "Friendly and playful. Loves fetch and people." },
-  { id: 2, type: "Cat", name: "Milo", age: "1 year", breed: "Domestic Shorthair", img: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?q=80&w=1200&auto=format&fit=crop", desc: "Curious and affectionate. Great lap cat." },
-  { id: 3, type: "Rabbit", name: "Snowy", age: "8 months", breed: "Angora", img: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=1200&auto=format&fit=crop", desc: "Gentle and calm — perfect for a quiet home." },
-  { id: 4, type: "Dog", name: "Beagle", age: "3 years", breed: "Beagle", img: "https://images.unsplash.com/photo-1515125520140-7c8d8d1e6f03?q=80&w=1200&auto=format&fit=crop", desc: "Loves to explore outdoors. Energetic & friendly." },
-  { id: 5, type: "Cat", name: "Luna", age: "2 years", breed: "Persian", img: "https://images.unsplash.com/photo-1543852786-1cf6624b9987?q=80&w=1200&auto=format&fit=crop", desc: "Calm, loves naps and cuddles." },
-  { id: 6, type: "Dog", name: "Buddy", age: "1 year", breed: "Mixed", img: "https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?q=80&w=1200&auto=format&fit=crop", desc: "Playful and affectionate — good with kids." }
-];
+const petsData = shelterpets.map(pet => ({
+  id: pet.id,
+  type: pet.species || pet.type,
+  name: pet.name,
+  age: pet.age,
+  breed: pet.breed,
+  img: pet.image,
+  desc: pet.description
+}));
 
  function Gallery() {
   const [typeFilter, setTypeFilter] = useState("All");

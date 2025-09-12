@@ -41,7 +41,7 @@
   border-radius: 4px;
 }
 
-/* Hamburger menu styles */
+
 .hamburger {
   display: none;
   flex-direction: column;
@@ -71,7 +71,7 @@
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* Sidebar backdrop */
+
 .sidebar-backdrop {
   position: fixed;
   top: 0;
@@ -90,9 +90,7 @@
   visibility: visible;
 }
 
-/* Responsive styles */
 
-/* Mobile small (less than 480px) */
 @media (max-width: 479px) {
   .nav-menu {
     position: fixed;
@@ -121,7 +119,7 @@
   }
 }
 
-/* Mobile medium (480px to 767px) */
+
 @media (min-width: 480px) and (max-width: 767px) {
   .nav-menu {
     position: fixed;
@@ -150,7 +148,7 @@
   }
 }
 
-/* Mobile large (768px to 1023px) */
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .nav-menu {
     position: fixed;
@@ -179,7 +177,7 @@
   }
 }
 
-/* Tablet small (1024px to 1199px) */
+
 @media (min-width: 1024px) and (max-width: 1199px) {
   .nav-menu {
     display: flex;
@@ -200,7 +198,6 @@
   }
 }
 
-/* Tablet medium (1200px to 1439px) */
 @media (min-width: 1200px) and (max-width: 1439px) {
   .nav-menu {
     display: flex;
@@ -221,7 +218,7 @@
   }
 }
 
-/* Laptop small (1440px to 1919px) */
+
 @media (min-width: 1440px) and (max-width: 1919px) {
   .nav-menu {
     display: flex;
@@ -242,7 +239,6 @@
   }
 }
 
-/* Laptop medium and large (1920px and above) */
 @media (min-width: 1920px) {
   .nav-menu {
     display: flex;

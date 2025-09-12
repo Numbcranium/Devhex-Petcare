@@ -1,18 +1,46 @@
 [
   {
     "id": 1,
-    "petName": "Buddy",
-    "species": "Dog",
-    "condition": "Parvo Recovery",
-    "treatment": "IV fluids, antibiotics, special diet",
-    "notes": "Responding well to treatment, check-up next week"
+    "petName": "Max",
+    "species": "Golden Retriever",
+    "age": "5 years",
+    "condition": "Hip Dysplasia",
+    "treatment": "Physical Therapy",
+    "status": "Recovered",
+    "duration": "6 weeks",
+    "description": "Successful treatment of hip dysplasia through a combination of weight management, physical therapy, and pain management. Max is now enjoying daily walks and playing fetch again."
   },
   {
     "id": 2,
-    "petName": "Milo",
-    "species": "Cat",
-    "condition": "Dental Issue",
-    "treatment": "Tooth extraction, oral antibiotics",
-    "notes": "Healing fine, needs follow-up in 2 weeks"
+    "petName": "Luna",
+    "species": "Persian Cat",
+    "age": "3 years",
+    "condition": "Respiratory Issues",
+    "treatment": "Medication & Care",
+    "status": "Monitoring",
+    "duration": "Ongoing",
+    "description": "Treatment of brachycephalic airway syndrome common in Persian cats. Regular monitoring and environmental modifications have significantly improved Luna's breathing."
+  },
+  {
+    "id": 3,
+    "petName": "Coco",
+    "species": "Holland Lop Rabbit",
+    "age": "2 years",
+    "condition": "Dental Overgrowth",
+    "treatment": "Dental Trimming",
+    "status": "Recovered",
+    "duration": "1 day procedure",
+    "description": "Routine dental procedure to address overgrown teeth. Coco is back to eating normally and the owners have been educated on proper diet to prevent future occurrences."
+  },
+  {
+    "id": 4,
+    "petName": "Charlie",
+    "species": "African Grey Parrot",
+    "age": "12 years",
+    "condition": "Feather Plucking",
+    "treatment": "Behavioral Therapy",
+    "status": "Improved",
+    "duration": "3 months",
+    "description": "Addressed chronic feather plucking through environmental enrichment, dietary changes, and behavioral modification. Charlie's plumage is growing back healthy and strong."
   }
 ]

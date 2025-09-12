@@ -1,20 +1,42 @@
 [
   {
     "id": 1,
-    "name": "Dr. Sarah Johnson",
-    "specialization": "Veterinary Surgeon",
-    "contact": "sarah.johnson@vetclinic.com | +234 800 123 4567",
-    "image": "https://via.placeholder.com/150",
-    "availableSlots": ["9:00 AM", "10:30 AM", "2:00 PM"],
-    "bookedSlots": ["11:00 AM", "1:00 PM"]
+    "name": "Dr. Maria",
+    "specialization": "Small Animal Veterinarian",
+    "phone": "+234-803-123-4567",
+    "email": "dr.johnson@furevercare.com",
+    "clinic": "FurEver Care Veterinary Center",
+    "experience": "8+ Years in Practice",
+    "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&crop=face"
   },
   {
     "id": 2,
+    "name": "Dr. Sarah Johnson",
+    "specialization": "Veterinary Surgeon",
+    "phone": "+234 800 123 4567",
+    "email": "sarah.johnson@vetclinic.com",
+    "clinic": "Vet Clinic",
+    "experience": "10+ Years in Practice",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 3,
     "name": "Dr. James Okoro",
     "specialization": "Pet Nutritionist",
-    "contact": "james.okoro@vetclinic.com | +234 801 987 6543",
-    "image": "https://via.placeholder.com/150",
-    "availableSlots": ["10:00 AM", "12:00 PM", "4:00 PM"],
-    "bookedSlots": ["9:30 AM", "3:00 PM"]
+    "phone": "+234 801 987 6543",
+    "email": "james.okoro@vetclinic.com",
+    "clinic": "Vet Clinic",
+    "experience": "5+ Years in Practice",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Emily Davis",
+    "specialization": "Exotic Animal Specialist",
+    "phone": "+234 802 456 7890",
+    "email": "emily.davis@vetclinic.com",
+    "clinic": "Vet Clinic",
+    "experience": "7+ Years in Practice",
+    "image": "https://via.placeholder.com/150"
   }
 ]
