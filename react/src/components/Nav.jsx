@@ -8,7 +8,7 @@ const Nav = ({ userCategory }) => {
       <div className="nav-logo">
         <Link to="/">FurEver Care</Link>
       </div>
-      <div className='visit'><VisitorCounter /></div>
+      <div className='visit' ><VisitorCounter /></div>
       
       <ul className="nav-menu">
         <li><Link to="/">Home</Link></li>
