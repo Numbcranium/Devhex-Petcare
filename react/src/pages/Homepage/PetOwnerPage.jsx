@@ -16,7 +16,7 @@ const PetOwnerPage = ({ userName }) => {
 
   return (
     <div className="pet-owner-page">
-    <h1>Welcome, {userName}!</h1>
+    <h1 >Welcome, {userName}!</h1>
       {/* <LocationTicker /> */}
       <section>
         {/* <h2>About Us</h2> */}

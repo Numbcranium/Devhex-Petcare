@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import background from '../../assets/dogplayinghomepage.webm';
 import LocationTicker from '../../components/LocationTicker';
+import Navbar from '../../components/Nav'
 
 const Homepage = ({ setUserName, setUserCategory }) => {
   const [name, setName] = useState('');
@@ -22,7 +23,10 @@ const Homepage = ({ setUserName, setUserCategory }) => {
 
 
   return (
-    <div style={{ padding: '2rem',position: 'relative', overflow: 'hidden', minHeight: '100vh',zIndex: '1', color: '#6A443E' }}>
+  
+
+    <div style={{ padding: '2rem',position: 'relative', overflow: 'hidden', minHeight: '120vh',zIndex: '1', color: '#6A443E',marginTop:"-70px" }}>
+        <div><Navbar/></div>
         <video
         autoPlay
         loop
@@ -31,7 +35,7 @@ const Homepage = ({ setUserName, setUserCategory }) => {
         style={{
           position: 'absolute',
           width: '100%',
-          height: '100vh',
+          height: '100%',
           objectFit: 'cover',
           top: 0,
           left: 0,
@@ -41,11 +45,11 @@ const Homepage = ({ setUserName, setUserCategory }) => {
             <source src={background} type="video/webm" />
             Your browser does not support the video tag.
         </video>
-      <h1 style={{ textAlign: 'center', fontSize: '2.5rem', marginBottom: '1rem' }}>Welcome to FurEver Care</h1>
-      <p style={{ textAlign: 'center', fontSize: '1.2rem', marginBottom: '2rem' }}>They Deserve Forever Love</p>
+      <h1 style={{ textAlign: 'center', fontSize: '2.5rem', marginBottom: '1rem',marginTop:"6rem", color:"whitesmoke" }}>Welcome to FurEver Care</h1>
+      <p style={{ textAlign: 'center', fontSize: '1.2rem', marginBottom: '2rem', color:"whitesmoke" }}>They Deserve Forever Love</p>
       <form onSubmit={handleSubmit} style={{ maxWidth: '400px', margin: '0 auto', backgroundColor: '#B78960', padding: '2rem', borderRadius: '8px', boxShadow: '0 0 10px rgba(0,0,0,0.1)' }}>
         <div style={{ marginBottom: '1rem' }}>
-          <label htmlFor="name" style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>First Name:</label>
+          <label htmlFor="name" style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold',color:"whitesmoke" }}>First Name:</label>
           <input
             type="text"
             id="name"
@@ -56,8 +60,8 @@ const Homepage = ({ setUserName, setUserCategory }) => {
           />
         </div>
         <div style={{ marginBottom: '1rem' }}>
-          <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>Select Category:</label>
-          <div style={{ marginBottom: '0.5rem' }}>
+          <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold',color:"wheat" }}>Select Category:</label>
+          <div style={{ marginBottom: '0.5rem',color:"whitesmoke" }}>
             <input
               type="radio"
               id="pet-owner"
@@ -68,7 +72,7 @@ const Homepage = ({ setUserName, setUserCategory }) => {
             />
             <label htmlFor="pet-owner">Pet Owner</label>
           </div>
-          <div style={{ marginBottom: '0.5rem' }}>
+          <div style={{ marginBottom: '0.5rem',color:"whitesmoke" }}>
             <input
               type="radio"
               id="veterinarian"
@@ -79,7 +83,7 @@ const Homepage = ({ setUserName, setUserCategory }) => {
             />
             <label htmlFor="veterinarian">Veterinarian</label>
           </div>
-          <div style={{ marginBottom: '0.5rem' }}>
+          <div style={{ marginBottom: '0.5rem',color:"whitesmoke" }}>
             <input
               type="radio"
               id="shelter"

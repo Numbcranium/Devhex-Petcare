@@ -29,7 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
-              <VisitorCounter />
+              {/* <VisitorCounter /> */}
               <Homepage setUserName={setUserName} setUserCategory={setUserCategory} />
             </>
           } />
@@ -41,7 +41,7 @@ function App() {
         
         </Routes>
       </div>
-
+<Footer />
     </BrowserRouter>
   );
 }
