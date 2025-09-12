@@ -14,9 +14,9 @@ const Homepage = ({ setUserName, setUserCategory }) => {
     if (name && category) {
       setUserName(name);
       setUserCategory(category);
-      if (category === 'Pet Owner') navigate('/pet-owner');
-      else if (category === 'Veterinarian') navigate('/veterinarian');
-      else if (category === 'Animal Shelter') navigate('/shelter');
+      if (category === 'Pet Owner') navigate('/Pet-Care');
+      else if (category === 'Veterinarian') navigate('/veterinarian?section=profiles');
+      else if (category === 'Animal Shelter') navigate('/shelter?section=pets');
     }
   };
 
