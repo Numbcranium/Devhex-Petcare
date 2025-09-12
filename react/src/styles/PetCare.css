@@ -331,7 +331,7 @@
         }
 
         /* Responsive Design */
-        @media (max-width: 768px) {
+        @media (max-width: 479px) {
             .care-sections {
                 grid-template-columns: 1fr;
             }
@@ -347,6 +347,9 @@
 
             .pet-avatar {
                 justify-self: center;
+                width: 150px;
+                height: 150px;
+                font-size: 3rem;
             }
 
             .nav-content {
@@ -359,7 +362,409 @@
             }
 
             .page-header h2 {
+                font-size: 1.8rem;
+            }
+
+            .care-card {
+                padding: 1.5rem;
+            }
+
+            .care-card h3 {
+                font-size: 1.3rem;
+            }
+
+            .tips-list {
+                gap: 0.5rem;
+            }
+
+            .tip-item {
+                padding: 0.8rem;
+            }
+
+            .tip-title {
+                font-size: 0.9rem;
+            }
+
+            .tip-description {
+                font-size: 0.85rem;
+            }
+        }
+
+        @media (min-width: 480px) and (max-width: 767px) {
+            .care-sections {
+                grid-template-columns: 1fr;
+            }
+
+            .pet-profile {
+                grid-column: span 1;
+            }
+
+            .profile-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .pet-avatar {
+                justify-self: center;
+                width: 180px;
+                height: 180px;
+                font-size: 3.5rem;
+            }
+
+            .nav-content {
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+
+            .container {
+                padding: 1.25rem;
+            }
+
+            .page-header h2 {
+                font-size: 1.9rem;
+            }
+
+            .care-card {
+                padding: 1.75rem;
+            }
+
+            .care-card h3 {
+                font-size: 1.4rem;
+            }
+
+            .tips-list {
+                gap: 0.75rem;
+            }
+
+            .tip-item {
+                padding: 0.9rem;
+            }
+
+            .tip-title {
+                font-size: 0.95rem;
+            }
+
+            .tip-description {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .care-sections {
+                grid-template-columns: 1fr;
+            }
+
+            .pet-profile {
+                grid-column: span 1;
+            }
+
+            .profile-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .pet-avatar {
+                justify-self: center;
+                width: 200px;
+                height: 200px;
+                font-size: 4rem;
+            }
+
+            .nav-content {
+                flex-wrap: wrap;
+                gap: 1rem;
+            }
+
+            .container {
+                padding: 1.5rem;
+            }
+
+            .page-header h2 {
                 font-size: 2rem;
+            }
+
+            .care-card {
+                padding: 2rem;
+            }
+
+            .care-card h3 {
+                font-size: 1.5rem;
+            }
+
+            .tips-list {
+                gap: 1rem;
+            }
+
+            .tip-item {
+                padding: 1rem;
+            }
+
+            .tip-title {
+                font-size: 1rem;
+            }
+
+            .tip-description {
+                font-size: 0.95rem;
+            }
+        }
+
+        @media (min-width: 1024px) and (max-width: 1199px) {
+            .care-sections {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .pet-profile {
+                grid-column: span 2;
+            }
+
+            .profile-content {
+                grid-template-columns: 180px 1fr;
+            }
+
+            .pet-avatar {
+                width: 180px;
+                height: 180px;
+                font-size: 3.5rem;
+            }
+
+            .container {
+                padding: 2rem;
+            }
+
+            .page-header h2 {
+                font-size: 2.2rem;
+            }
+
+            .care-card {
+                padding: 2rem;
+            }
+
+            .care-card h3 {
+                font-size: 1.5rem;
+            }
+
+            .tips-list {
+                gap: 1rem;
+            }
+
+            .tip-item {
+                padding: 1rem;
+            }
+
+            .tip-title {
+                font-size: 1rem;
+            }
+
+            .tip-description {
+                font-size: 0.95rem;
+            }
+        }
+
+        @media (min-width: 1200px) and (max-width: 1439px) {
+            .care-sections {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .pet-profile {
+                grid-column: span 2;
+            }
+
+            .profile-content {
+                grid-template-columns: 200px 1fr;
+            }
+
+            .pet-avatar {
+                width: 200px;
+                height: 200px;
+                font-size: 4rem;
+            }
+
+            .container {
+                padding: 2rem;
+            }
+
+            .page-header h2 {
+                font-size: 2.3rem;
+            }
+
+            .care-card {
+                padding: 2rem;
+            }
+
+            .care-card h3 {
+                font-size: 1.5rem;
+            }
+
+            .tips-list {
+                gap: 1rem;
+            }
+
+            .tip-item {
+                padding: 1rem;
+            }
+
+            .tip-title {
+                font-size: 1rem;
+            }
+
+            .tip-description {
+                font-size: 0.95rem;
+            }
+        }
+
+        @media (min-width: 1440px) and (max-width: 1919px) {
+            .care-sections {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .pet-profile {
+                grid-column: span 2;
+            }
+
+            .profile-content {
+                grid-template-columns: 200px 1fr;
+            }
+
+            .pet-avatar {
+                width: 200px;
+                height: 200px;
+                font-size: 4rem;
+            }
+
+            .container {
+                padding: 2rem;
+            }
+
+            .page-header h2 {
+                font-size: 2.4rem;
+            }
+
+            .care-card {
+                padding: 2rem;
+            }
+
+            .care-card h3 {
+                font-size: 1.5rem;
+            }
+
+            .tips-list {
+                gap: 1rem;
+            }
+
+            .tip-item {
+                padding: 1rem;
+            }
+
+            .tip-title {
+                font-size: 1rem;
+            }
+
+            .tip-description {
+                font-size: 0.95rem;
+            }
+        }
+
+        @media (min-width: 1920px) and (max-width: 2559px) {
+            .care-sections {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .pet-profile {
+                grid-column: span 2;
+            }
+
+            .profile-content {
+                grid-template-columns: 200px 1fr;
+            }
+
+            .pet-avatar {
+                width: 200px;
+                height: 200px;
+                font-size: 4rem;
+            }
+
+            .container {
+                padding: 2rem;
+            }
+
+            .page-header h2 {
+                font-size: 2.5rem;
+            }
+
+            .care-card {
+                padding: 2rem;
+            }
+
+            .care-card h3 {
+                font-size: 1.5rem;
+            }
+
+            .tips-list {
+                gap: 1rem;
+            }
+
+            .tip-item {
+                padding: 1rem;
+            }
+
+            .tip-title {
+                font-size: 1rem;
+            }
+
+            .tip-description {
+                font-size: 0.95rem;
+            }
+        }
+
+        @media (min-width: 2560px) {
+            .care-sections {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .pet-profile {
+                grid-column: span 2;
+            }
+
+            .profile-content {
+                grid-template-columns: 200px 1fr;
+            }
+
+            .pet-avatar {
+                width: 200px;
+                height: 200px;
+                font-size: 4rem;
+            }
+
+            .container {
+                padding: 2rem;
+            }
+
+            .page-header h2 {
+                font-size: 2.6rem;
+            }
+
+            .care-card {
+                padding: 2rem;
+            }
+
+            .care-card h3 {
+                font-size: 1.5rem;
+            }
+
+            .tips-list {
+                gap: 1rem;
+            }
+
+            .tip-item {
+                padding: 1rem;
+            }
+
+            .tip-title {
+                font-size: 1rem;
+            }
+
+            .tip-description {
+                font-size: 0.95rem;
             }
         }
 

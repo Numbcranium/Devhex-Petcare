@@ -124,3 +124,613 @@
   color: #806550;
   word-wrap: break-word;
 }
+
+/* Responsive styles */
+
+/* Mobile small (less than 480px) */
+@media (max-width: 479px) {
+  .about-header {
+    padding: 1.5rem;
+  }
+
+  .about-header h1 {
+    font-size: 2rem;
+  }
+
+  .about-header p {
+    font-size: 1rem;
+  }
+
+  .about-maini {
+    padding: 1.5rem;
+  }
+
+  .about-maini h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-content {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+  }
+
+  .mission-vision {
+    padding: 1rem;
+  }
+
+  .mission-vision h3 {
+    font-size: 1rem;
+  }
+
+  .mission-vision p {
+    font-size: 0.9rem;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .team-card {
+    padding: 1rem;
+  }
+
+  .initials {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .team-card h4 {
+    font-size: 1rem;
+  }
+
+  .role {
+    font-size: 0.85rem;
+  }
+
+  .contact-email,
+  .contact-phone {
+    font-size: 0.8rem;
+  }
+
+  .location-section iframe {
+    height: 200px;
+  }
+}
+
+/* Mobile medium (480px to 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+  .about-header {
+    padding: 1.75rem;
+  }
+
+  .about-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .about-header p {
+    font-size: 1.1rem;
+  }
+
+  .about-maini {
+    padding: 1.75rem;
+  }
+
+  .about-maini h2 {
+    font-size: 1.9rem;
+  }
+
+  .about-content {
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .mission-vision {
+    padding: 1.25rem;
+  }
+
+  .mission-vision h3 {
+    font-size: 1.05rem;
+  }
+
+  .mission-vision p {
+    font-size: 0.95rem;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .team-card {
+    padding: 1.25rem;
+  }
+
+  .initials {
+    width: 45px;
+    height: 45px;
+    font-size: 1.3rem;
+  }
+
+  .team-card h4 {
+    font-size: 1.05rem;
+  }
+
+  .role {
+    font-size: 0.9rem;
+  }
+
+  .contact-email,
+  .contact-phone {
+    font-size: 0.82rem;
+  }
+
+  .location-section iframe {
+    height: 220px;
+  }
+}
+
+/* Mobile large (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-header {
+    padding: 2rem;
+  }
+
+  .about-header h1 {
+    font-size: 2.4rem;
+  }
+
+  .about-header p {
+    font-size: 1.15rem;
+  }
+
+  .about-maini {
+    padding: 2rem;
+  }
+
+  .about-maini h2 {
+    font-size: 2rem;
+  }
+
+  .about-content {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .mission-vision {
+    padding: 1.5rem;
+  }
+
+  .mission-vision h3 {
+    font-size: 1.1rem;
+  }
+
+  .mission-vision p {
+    font-size: 1rem;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .team-card {
+    padding: 1.5rem;
+  }
+
+  .initials {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  .team-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .role {
+    font-size: 0.95rem;
+  }
+
+  .contact-email,
+  .contact-phone {
+    font-size: 0.85rem;
+  }
+
+  .location-section iframe {
+    height: 240px;
+  }
+}
+
+/* Tablet small (1024px to 1199px) */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .about-header {
+    padding: 2rem;
+  }
+
+  .about-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-header p {
+    font-size: 1.2rem;
+  }
+
+  .about-maini {
+    padding: 2rem;
+  }
+
+  .about-maini h2 {
+    font-size: 2rem;
+  }
+
+  .about-content {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .mission-vision {
+    padding: 1.5rem;
+  }
+
+  .mission-vision h3 {
+    font-size: 1.1rem;
+  }
+
+  .mission-vision p {
+    font-size: 1rem;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .team-card {
+    padding: 1.5rem;
+  }
+
+  .initials {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  .team-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .role {
+    font-size: 0.95rem;
+  }
+
+  .contact-email,
+  .contact-phone {
+    font-size: 0.85rem;
+  }
+
+  .location-section iframe {
+    height: 250px;
+  }
+}
+
+/* Tablet medium (1200px to 1439px) */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .about-header {
+    padding: 2rem;
+  }
+
+  .about-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-header p {
+    font-size: 1.2rem;
+  }
+
+  .about-maini {
+    padding: 2rem;
+  }
+
+  .about-maini h2 {
+    font-size: 2rem;
+  }
+
+  .about-content {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .mission-vision {
+    padding: 1.5rem;
+  }
+
+  .mission-vision h3 {
+    font-size: 1.1rem;
+  }
+
+  .mission-vision p {
+    font-size: 1rem;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .team-card {
+    padding: 1.5rem;
+  }
+
+  .initials {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  .team-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .role {
+    font-size: 0.95rem;
+  }
+
+  .contact-email,
+  .contact-phone {
+    font-size: 0.85rem;
+  }
+
+  .location-section iframe {
+    height: 250px;
+  }
+}
+
+/* Tablet large / Laptop small (1440px to 1919px) */
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .about-header {
+    padding: 2rem;
+  }
+
+  .about-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-header p {
+    font-size: 1.2rem;
+  }
+
+  .about-maini {
+    padding: 2rem;
+  }
+
+  .about-maini h2 {
+    font-size: 2rem;
+  }
+
+  .about-content {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .mission-vision {
+    padding: 1.5rem;
+  }
+
+  .mission-vision h3 {
+    font-size: 1.1rem;
+  }
+
+  .mission-vision p {
+    font-size: 1rem;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .team-card {
+    padding: 1.5rem;
+  }
+
+  .initials {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  .team-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .role {
+    font-size: 0.95rem;
+  }
+
+  .contact-email,
+  .contact-phone {
+    font-size: 0.85rem;
+  }
+
+  .location-section iframe {
+    height: 250px;
+  }
+}
+
+/* Laptop medium (1920px to 2559px) */
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .about-header {
+    padding: 2rem;
+  }
+
+  .about-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-header p {
+    font-size: 1.2rem;
+  }
+
+  .about-maini {
+    padding: 2rem;
+  }
+
+  .about-maini h2 {
+    font-size: 2rem;
+  }
+
+  .about-content {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .mission-vision {
+    padding: 1.5rem;
+  }
+
+  .mission-vision h3 {
+    font-size: 1.1rem;
+  }
+
+  .mission-vision p {
+    font-size: 1rem;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .team-card {
+    padding: 1.5rem;
+  }
+
+  .initials {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  .team-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .role {
+    font-size: 0.95rem;
+  }
+
+  .contact-email,
+  .contact-phone {
+    font-size: 0.85rem;
+  }
+
+  .location-section iframe {
+    height: 250px;
+  }
+}
+
+/* Laptop large (2560px and above) */
+@media (min-width: 2560px) {
+  .about-header {
+    padding: 2rem;
+  }
+
+  .about-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-header p {
+    font-size: 1.2rem;
+  }
+
+  .about-maini {
+    padding: 2rem;
+  }
+
+  .about-maini h2 {
+    font-size: 2rem;
+  }
+
+  .about-content {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .mission-vision {
+    padding: 1.5rem;
+  }
+
+  .mission-vision h3 {
+    font-size: 1.1rem;
+  }
+
+  .mission-vision p {
+    font-size: 1rem;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .team-card {
+    padding: 1.5rem;
+  }
+
+  .initials {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  .team-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .role {
+    font-size: 0.95rem;
+  }
+
+  .contact-email,
+  .contact-phone {
+    font-size: 0.85rem;
+  }
+
+  .location-section iframe {
+    height: 250px;
+  }
+}

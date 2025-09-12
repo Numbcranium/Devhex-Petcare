@@ -15,9 +15,7 @@ const FeedbackForm = () => {
   return (
       <div className="container">
 
-        {/* <div className="page-header">
-           <p>We value your opinion and would love to hear about your experience with FurEver Care</p>
-        </div> */}      <h2>Share Your Feedback</h2>
+            <h2>Share Your Feedback</h2>
        
 
         <div className="feedback-form">
@@ -26,7 +24,7 @@ const FeedbackForm = () => {
                  
                     <div className="contact-section">
                         <h3 className="section-title">
-                            <div className="title-icon">👤</div>
+                            <div className="title-icon"></div>
                             Contact Information
                         </h3>
                         
@@ -49,7 +47,7 @@ const FeedbackForm = () => {
          
                     <div className="feedback-section">
                         <h3 className="section-title">
-                            <div className="title-icon">💭</div>
+                            <div className="title-icon"></div>
                             Your Experience
                         </h3>
 
@@ -73,7 +71,7 @@ const FeedbackForm = () => {
                   
                     <div className="submit-section">
                         <h3 className="section-title">
-                            <div className="title-icon">📝</div>
+                            <div className="title-icon"></div>
                             Feedback Category
                         </h3>
 
