@@ -22,35 +22,23 @@ const PetProfile = () => {
                     <div class="pet-details">
                         <div class="detail-item">
                             <div class="detail-label">Name</div>
-                            <div class="detail-value">Buddy</div>
+                            <div class="detail-value">{pet.name}</div>
                         </div>
                         <div class="detail-item">
                             <div class="detail-label">Species</div>
-                            <div class="detail-value">Dog</div>
+                            <div class="detail-value">{pet.species}</div>
                         </div>
                         <div class="detail-item">
                             <div class="detail-label">Breed</div>
-                            <div class="detail-value">Golden Retriever</div>
+                            <div class="detail-value">{pet.breed}</div>
                         </div>
                         <div class="detail-item">
                             <div class="detail-label">Age</div>
-                            <div class="detail-value">3 years</div>
+                            <div class="detail-value">{pet.age}</div>
                         </div>
                         <div class="detail-item">
-                            <div class="detail-label">Weight</div>
-                            <div class="detail-value">28 kg</div>
-                        </div>
-                        <div class="detail-item">
-                            <div class="detail-label">Last Vaccination</div>
-                            <div class="detail-value">March 2024</div>
-                        </div>
-                        <div class="detail-item">
-                            <div class="detail-label">Next Check-up</div>
-                            <div class="detail-value">October 2025</div>
-                        </div>
-                        <div class="detail-item">
-                            <div class="detail-label">Microchip ID</div>
-                            <div class="detail-value">ABC123456789</div>
+                            <div class="detail-label">Vaccinations</div>
+                            <div class="detail-value">{pet.vaccination}</div>
                         </div>
                     </div>
                 </div>

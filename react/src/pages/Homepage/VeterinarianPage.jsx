@@ -5,8 +5,7 @@ import AddVetForm from "../../components/Veterinarian/AddVetForm";
 import AppointmentSlots from "../../components/Veterinarian/AppointmentSlots";
 import MedicalHistory from "../../components/Veterinarian/MedicalHistory";
 import "../../styles/Veterinarian.css";
-import '../../styles/signin.css'
-// import Footer from "../../components/Footer";
+
 
 const VeterinarianPage = ({ userName }) => {
   const location = useLocation();

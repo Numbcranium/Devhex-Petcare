@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import vetsData from "../../data/vets.json";
 import "../../styles/AppointmentSlots.css";
+import Footer from "../Footer";
 
 const AppointmentSlots = () => {
   const [vets, setVets] = useState([]);
@@ -101,6 +102,7 @@ const AppointmentSlots = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
             </div>
   );
 };
