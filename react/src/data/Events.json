@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "icon": "🐾",
+    "title": "Adoption Drive",
+    "date": "Sept 20, 2025",
+    "description": "Meet your future furry friend and give them a forever home."
+  },
+  {
+    "id": 2,
+    "icon": "💉",
+    "title": "Free Vaccination Camp",
+    "date": "Oct 5, 2025",
+    "description": "Protect your pets with free vaccines provided by our vets."
+  },
+  {
+    "id": 3,
+    "icon": "🎉",
+    "title": "Fundraising Gala",
+    "date": "Oct 15, 2025",
+    "description": "An evening of music, dinner, and charity to support our shelter."
+  },
+  {
+    "id": 4,
+    "icon": "🙌",
+    "title": "Volunteer Orientation",
+    "date": "Nov 1, 2025",
+    "description": "Join our community of animal lovers and learn how to help."
+  }
+]

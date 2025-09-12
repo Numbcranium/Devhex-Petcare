@@ -11,12 +11,14 @@
             --white: #FFFFFF;
         }
 
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, var(--whitesmoke) 0%, #FEFEFE 100%);
             color: var(--dark-brown);
             line-height: 1.6;
         }
+
+        
 
         /* Header */
         header {
@@ -96,7 +98,7 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, var(--rust-brown) 0%, var(--warm-brown) 50%, var(--golden-brown) 100%);
+            /* background: linear-gradient(135deg, var(--rust-brown) 0%, var(--warm-brown) 50%, var(--golden-brown) 100%); */
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -138,7 +140,7 @@
         }
 
         .user-selection {
-            background: rgba(255,255,255,0.95);
+        
             padding: 2rem;
             border-radius: 20px;
             box-shadow: 0 15px 35px rgba(0,0,0,0.1);

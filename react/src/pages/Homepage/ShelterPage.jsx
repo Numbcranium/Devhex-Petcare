@@ -20,7 +20,7 @@ const ShelterPage = ({ userName }) => {
         {section === "events" && <Events />}
         {section === "contact" && <ContactInfo />}
       </section>
-    </div>
+        </div>
   );
 };
 

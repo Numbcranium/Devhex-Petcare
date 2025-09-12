@@ -10,5 +10,44 @@
     "title": "Luna’s second chance",
     "description": "Luna the stray cat was rescued and adopted by a caring couple.",
     "image": "https://via.placeholder.com/250"
-  }
-]
+  },
+    {
+        "id": 3,
+        "title": "Rocky’s new adventures",
+        "description": "Rocky the Beagle was adopted and now enjoys daily walks in the park.",
+        "image": "https://via.placeholder.com/250"
+    },
+    {
+        "id": 4,
+        "title": "Bella’s happy ending",
+        "description": "Bella the Labrador found her forever home and loves playing fetch.",
+        "image": "https://via.placeholder.com/250"
+    }
+    ,
+    {
+        "id": 5,
+        "title": "Charlie’s fresh start",
+        "description": "Charlie the Tabby cat was adopted and now lives in a cozy apartment.",
+        "image": "https://via.placeholder.com/250"
+    }
+    ,
+    {
+        "id": 6,
+        "title": "Daisy’s joyful life",
+        "description": "Daisy the Golden Retriever was adopted and enjoys swimming and hiking.",
+        "image": "https://via.placeholder.com/250"
+    }
+    ,
+    {
+        "id": 7,
+        "title": "Oliver’s loving family",
+        "description": "Oliver the Bulldog was adopted and is now part of a loving family.",
+        "image": "https://via.placeholder.com/250"
+    }
+    ,
+    {
+        "id": 8,
+        "title": "Molly’s playful days",
+        "description": "Molly the Poodle was adopted and loves playing with her new toys.",
+        "image": "https://via.placeholder.com/250"
+    }]

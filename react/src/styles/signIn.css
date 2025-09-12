@@ -3,13 +3,6 @@
     display: flex;
     font-family: cursive;
 }
-.side-pic{
-    width: 40%;
-    height: auto;
-    background-image: url('../assets/images/gantas-vaiciulenas--wXDi-zBLE4-unsplash.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 .welcome{
     width: 60%;
     /* height: 100%; */

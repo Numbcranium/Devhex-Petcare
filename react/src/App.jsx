@@ -12,6 +12,7 @@ import VeterinarianPage from './pages/Homepage/VeterinarianPage';
 import ShelterPage from './pages/Homepage/ShelterPage';
 import VisitorCounter from './components/VisitorCounter';
 import Layout from './components/Layout';
+import AddVetForm from './components/Veterinarian/AddVetForm.jsx';
 
 
 function App() {
