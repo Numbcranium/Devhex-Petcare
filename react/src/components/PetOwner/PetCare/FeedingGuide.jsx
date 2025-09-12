@@ -11,7 +11,7 @@ const FeedingGuide = () => {
   return (
      <div className="care-card">
                 <h3>
-                    <div className="card-icon">🍽️</div>
+                    <div className="card-icon"></div>
                     Feeding Guide
                 </h3>
                 <div className="feeding-charts">

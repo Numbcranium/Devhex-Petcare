@@ -1,4 +1,4 @@
-  * {
+* {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -116,3 +116,201 @@
             transform: translateY(-10px);
             box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         }
+
+/* Responsive styles */
+
+/* Mobile small (less than 480px) */
+@media (max-width: 479px) {
+  .appointment-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .time-slots {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    padding: 1rem;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+  }
+
+  .date-header {
+    font-size: 1rem;
+  }
+
+  .time-slot {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+}
+
+/* Mobile medium (480px to 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+  .appointment-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .time-slots {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section {
+    padding: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+  }
+
+  .date-header {
+    font-size: 1.05rem;
+  }
+
+  .time-slot {
+    font-size: 0.85rem;
+    padding: 0.6rem;
+  }
+}
+
+/* Mobile large (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .appointment-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  .time-slots {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section {
+    padding: 1.75rem;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+  }
+
+  .date-header {
+    font-size: 1.1rem;
+  }
+
+  .time-slot {
+    font-size: 0.9rem;
+    padding: 0.65rem;
+  }
+}
+
+/* Tablet small (1024px to 1199px) */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .appointment-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .time-slots {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section {
+    padding: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .date-header {
+    font-size: 1.1rem;
+  }
+
+  .time-slot {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+}
+
+/* Tablet medium (1200px to 1439px) */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .appointment-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+
+  .time-slots {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section {
+    padding: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .date-header {
+    font-size: 1.15rem;
+  }
+
+  .time-slot {
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+}
+
+/* Laptop small (1440px to 1919px) */
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .appointment-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+
+  .time-slots {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section {
+    padding: 2.5rem;
+  }
+
+  .section-title {
+    font-size: 1.7rem;
+  }
+
+  .date-header {
+    font-size: 1.2rem;
+  }
+
+  .time-slot {
+    font-size: 1.05rem;
+    padding: 0.8rem;
+  }
+}
+
+/* Laptop medium and large (1920px and above) */
+@media (min-width: 1920px) {
+  .appointment-grid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+
+  .time-slots {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section {
+    padding: 3rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .date-header {
+    font-size: 1.25rem;
+  }
+
+  .time-slot {
+    font-size: 1.1rem;
+    padding: 0.85rem;
+  }
+}

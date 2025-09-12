@@ -11,7 +11,7 @@ const GroomingVideos = () => {
   return (
     <div className="care-card">
       <h3>
-        <div className="card-icon">✂️</div>
+        <div className="card-icon"></div>
         Grooming Videos
       </h3>
       <div className="media-grid">

@@ -1,0 +1,133 @@
+.footer {
+  background-color: #6A443E;
+  color: #BC9A6E;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  font-size: 0.9rem;
+  overflow: hidden;
+  white-space: nowrap;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 4rem;
+  align-items: center;
+}
+
+.footer-scroll {
+  display: inline-flex;
+  gap: 2rem;
+  min-width: 200%;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Mobile small (less than 480px) */
+@media (max-width: 479px) {
+  .footer {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    height: 3rem;
+    gap: 1rem;
+  }
+
+  .footer-scroll {
+    gap: 1rem;
+  }
+}
+
+/* Mobile medium (480px to 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+  .footer {
+    padding: 0.75rem;
+    font-size: 0.8rem;
+    height: 3.5rem;
+    gap: 1.5rem;
+  }
+
+  .footer-scroll {
+    gap: 1.5rem;
+  }
+}
+
+/* Mobile large (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    padding: 1rem;
+    font-size: 0.85rem;
+    height: 3.75rem;
+    gap: 1.75rem;
+  }
+
+  .footer-scroll {
+    gap: 1.75rem;
+  }
+}
+
+/* Tablet small (1024px to 1199px) */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .footer {
+    padding: 1rem;
+    font-size: 0.9rem;
+    height: 4rem;
+    gap: 2rem;
+  }
+
+  .footer-scroll {
+    gap: 2rem;
+  }
+}
+
+/* Tablet medium (1200px to 1439px) */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .footer {
+    padding: 1.25rem;
+    font-size: 0.95rem;
+    height: 4.25rem;
+    gap: 2.25rem;
+  }
+
+  .footer-scroll {
+    gap: 2.25rem;
+  }
+}
+
+/* Laptop small (1440px to 1919px) */
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .footer {
+    padding: 1.5rem;
+    font-size: 1rem;
+    height: 4.5rem;
+    gap: 2.5rem;
+  }
+
+  .footer-scroll {
+    gap: 2.5rem;
+  }
+}
+
+/* Laptop medium and large (1920px and above) */
+@media (min-width: 1920px) {
+  .footer {
+    padding: 1.75rem;
+    font-size: 1.1rem;
+    height: 4.75rem;
+    gap: 2.75rem;
+  }
+
+  .footer-scroll {
+    gap: 2.75rem;
+  }
+}
