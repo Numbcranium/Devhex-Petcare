@@ -1,0 +1,254 @@
+[
+  {
+    "product_name": "Hamster Food Mix",
+    "category": "Food",
+    "price": 12.75,
+    "stock": 302,
+    "brand": "HappyPaws",
+    "description": "Nutritious mix designed for hamsters.",
+    "image_url": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6"
+  },
+  {
+    "product_name": "Cat Bed Plush",
+    "category": "Bedding",
+    "price": 45.99,
+    "stock": 45,
+    "brand": "SnugglePaws",
+    "description": "Soft and comfortable bed for cats.",
+    "image_url": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6"
+  },
+  {
+    "product_name": "Dog Blanket Cozy",
+    "category": "Bedding",
+    "price": 33.92,
+    "stock": 399,
+    "brand": "Pawfect",
+    "description": "Warm and cozy blanket for pets.",
+    "image_url": "https://images.unsplash.com/photo-1593139251928-37b3e9d2a32b"
+  },
+  {
+    "product_name": "Cat Collar with Bell",
+    "category": "Accessories",
+    "price": 14.50,
+    "stock": 278,
+    "brand": "MeowMix",
+    "description": "Lightweight collar with safety bell.",
+    "image_url": "https://images.unsplash.com/photo-1574158622682-e40e69881006"
+  },
+  {
+    "product_name": "Bird Seed Mix Premium",
+    "category": "Food",
+    "price": 19.11,
+    "stock": 321,
+    "brand": "PetCare+",
+    "description": "Healthy premium mix for birds.",
+    "image_url": "https://images.unsplash.com/photo-1501706362039-c6e80948e90f"
+  },
+  {
+    "product_name": "Pet Cooling Mat",
+    "category": "Bedding",
+    "price": 29.99,
+    "stock": 30,
+    "brand": "SnugglePaws",
+    "description": "Cooling mat to keep pets comfortable.",
+    "image_url": "https://images.unsplash.com/photo-1583337130417-f88e2b58f6c7"
+  },
+  {
+    "product_name": "Pet Grooming Brush",
+    "category": "Grooming",
+    "price": 18.75,
+    "stock": 486,
+    "brand": "WoofCo",
+    "description": "Gentle grooming brush for pets.",
+    "image_url": "https://images.unsplash.com/photo-1624120464925-3a5e889e1df6"
+  },
+  {
+    "product_name": "Rabbit Chew Sticks",
+    "category": "Toys",
+    "price": 9.49,
+    "stock": 144,
+    "brand": "HappyPaws",
+    "description": "Safe wooden chew sticks for rabbits.",
+    "image_url": "https://images.unsplash.com/photo-1574158622682-e40e69881006"
+  },
+  {
+    "product_name": "Guinea Pig Hideout",
+    "category": "Accessories",
+    "price": 22.99,
+    "stock": 237,
+    "brand": "PetCare+",
+    "description": "Cozy hideout house for guinea pigs.",
+    "image_url": "https://images.unsplash.com/photo-1624120464925-3a5e889e1df6"
+  },
+  {
+    "product_name": "Dog Harness Adjustable",
+    "category": "Accessories",
+    "price": 24.50,
+    "stock": 93,
+    "brand": "SnugglePaws",
+    "description": "Adjustable and durable harness.",
+    "image_url": "https://images.unsplash.com/photo-1507149833265-60c372daea22"
+  },
+  {
+    "product_name": "Cat Tunnel Foldable",
+    "category": "Toys",
+    "price": 19.95,
+    "stock": 187,
+    "brand": "Pawfect",
+    "description": "Interactive foldable play tunnel.",
+    "image_url": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131"
+  },
+  {
+    "product_name": "Puppy Teething Ring",
+    "category": "Toys",
+    "price": 12.99,
+    "stock": 276,
+    "brand": "WoofCo",
+    "description": "Durable teething ring for puppies.",
+    "image_url": "https://images.unsplash.com/photo-1517849845537-4d257902454a"
+  },
+  {
+    "product_name": "Pet Water Fountain",
+    "category": "Accessories",
+    "price": 35.40,
+    "stock": 120,
+    "brand": "PetCare+",
+    "description": "Automatic fountain keeps pets hydrated.",
+    "image_url": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131"
+  },
+  {
+    "product_name": "Pet Nail Clippers",
+    "category": "Grooming",
+    "price": 16.85,
+    "stock": 390,
+    "brand": "HappyPaws",
+    "description": "Safe nail clippers for pets.",
+    "image_url": "https://images.unsplash.com/photo-1624120464925-3a5e889e1df6"
+  },
+  {
+    "product_name": "Cat Scratching Post",
+    "category": "Toys",
+    "price": 29.50,
+    "stock": 220,
+    "brand": "MeowMix",
+    "description": "Durable scratching post for cats.",
+    "image_url": "https://images.unsplash.com/photo-1574158622682-e40e69881006"
+  },
+  {
+    "product_name": "Organic Dog Food",
+    "category": "Food",
+    "price": 21.99,
+    "stock": 311,
+    "brand": "Pawfect",
+    "description": "Organic and nutritious dog food.",
+    "image_url": "https://images.unsplash.com/photo-1507149833265-60c372daea22"
+  },
+  {
+    "product_name": "Pet Stain Remover Spray",
+    "category": "Medicine",
+    "price": 14.75,
+    "stock": 180,
+    "brand": "WoofCo",
+    "description": "Removes pet stains and odors.",
+    "image_url": "https://images.unsplash.com/photo-1583337130417-f88e2b58f6c7"
+  },
+  {
+    "product_name": "Puppy Training Pads",
+    "category": "Training",
+    "price": 24.50,
+    "stock": 410,
+    "brand": "SnugglePaws",
+    "description": "Leak-proof training pads for puppies.",
+    "image_url": "https://images.unsplash.com/photo-1517849845537-4d257902454a"
+  },
+  {
+    "product_name": "Dog Chew Bone",
+    "category": "Toys",
+    "price": 9.99,
+    "stock": 367,
+    "brand": "WoofCo",
+    "description": "Durable chew bone for dogs.",
+    "image_url": "https://images.unsplash.com/photo-1507149833265-60c372daea22"
+  },
+  {
+    "product_name": "Cat Litter Fresh Scent",
+    "category": "Bedding",
+    "price": 18.49,
+    "stock": 210,
+    "brand": "MeowMix",
+    "description": "Fresh litter with odor control.",
+    "image_url": "https://images.unsplash.com/photo-1574158622682-e40e69881006"
+  },
+  {
+    "product_name": "Rabbit Hay Feeder",
+    "category": "Accessories",
+    "price": 22.00,
+    "stock": 142,
+    "brand": "Pawfect",
+    "description": "Hay feeder for rabbits and guinea pigs.",
+    "image_url": "https://images.unsplash.com/photo-1624120464925-3a5e889e1df6"
+  },
+  {
+    "product_name": "Reptile Heat Lamp",
+    "category": "Accessories",
+    "price": 39.15,
+    "stock": 97,
+    "brand": "PetCare+",
+    "description": "Heating lamp for reptiles.",
+    "image_url": "https://images.unsplash.com/photo-1501706362039-c6e80948e90f"
+  },
+  {
+    "product_name": "Dog Shampoo Fresh Coat",
+    "category": "Grooming",
+    "price": 15.30,
+    "stock": 301,
+    "brand": "HappyPaws",
+    "description": "Gentle shampoo for dogs.",
+    "image_url": "https://images.unsplash.com/photo-1583337130417-f88e2b58f6c7"
+  },
+  {
+    "product_name": "Catnip Mouse Toy",
+    "category": "Toys",
+    "price": 12.25,
+    "stock": 255,
+    "brand": "MeowMix",
+    "description": "Catnip-filled toy mouse.",
+    "image_url": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131"
+  },
+  {
+    "product_name": "Flea & Tick Collar",
+    "category": "Medicine",
+    "price": 19.49,
+    "stock": 178,
+    "brand": "SnugglePaws",
+    "description": "All-natural flea and tick protection.",
+    "image_url": "https://images.unsplash.com/photo-1507149833265-60c372daea22"
+  },
+  {
+    "product_name": "Hamster Bedding Soft",
+    "category": "Bedding",
+    "price": 10.99,
+    "stock": 140,
+    "brand": "Pawfect",
+    "description": "Soft bedding for hamsters.",
+    "image_url": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6"
+  },
+  {
+    "product_name": "Bird Perch Wooden",
+    "category": "Accessories",
+    "price": 13.95,
+    "stock": 175,
+    "brand": "HappyPaws",
+    "description": "Natural wooden perch for birds.",
+    "image_url": "https://images.unsplash.com/photo-1501706362039-c6e80948e90f"
+  },
+  {
+    "product_name": "Fish Flake Food",
+    "category": "Food",
+    "price": 7.49,
+    "stock": 220,
+    "brand": "WoofCo",
+    "description": "Nutritious flakes for aquarium fish.",
+    "image_url": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131"
+  }
+]
