@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import background from '../../assets/dogplayinghomepage.webm';
+import background from '../../assets/dogplayinghomepage.mp4';
 import LocationTicker from '../../components/LocationTicker';
 import Navbar from '../../components/Nav'
 
