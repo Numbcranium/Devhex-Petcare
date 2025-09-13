@@ -13,7 +13,7 @@ const MedicalHistory = () => {
     <div className="section">
       <h2 className="section-title">
         <div className="section-icon">📋</div>
-        Sample Pet Medical Histories
+         Pet Medical Histories
       </h2>
       <div className="case-studies">
         {history.map((caseItem) => (
